@@ -99,6 +99,9 @@ a:hover{
     font-weight: 300;
     display: inline;
 }
+.project-heading{
+    font-size: 15px;
+}
 
 @media print {
     body {

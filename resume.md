@@ -1,8 +1,5 @@
-<!-- The (first) h1 will be used as the <title> of the HTML page -->
 # Rose Kamal Love
 
-<!-- The unordered list immediately after the h1 will be formatted on a single
-line. It is intended to be used for contact details -->
 - <rosekamallove@gmail.com>
 - [GitHub](https://github.com/rosekamallove)
 - [LinkedIn](https://www.linkedin.com/in/rose-kamal-love-1146141b0/)
@@ -13,8 +10,6 @@ line. It is intended to be used for contact details -->
 
 ## Experience
 
-<!-- You have to wrap the "left" and "right" half of these headings in spans by
-hand -->
 ### <span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 -- August 2021</span>
 
 A 4-week Educational program offered by MLH **powered by GitHub** to level as a software engineer by collaborating
@@ -36,7 +31,7 @@ on a real-world project by collaborating with people around the world through St
 
 ## Projects
 
-### <span>YouTemy <div class="link">[GitHub](https://github.com/rosekamallove/youtemy) | [Deployed](https://youtemy.tech)</div></span> <span class="technologies">React & Firestore</span>
+### <span class="project-heading">YouTemy <div class="link">[GitHub](https://github.com/rosekamallove/youtemy) | [Deployed](https://youtemy.tech)</div></span> <span class="technologies">React & Firestore</span>
 
 A platform providing the user the ability to track their YouTube course and offer recommended courses decided by the
 admin. Also provides the ability to Explore new courses and take a preview and then bookmark them if they don't want
@@ -48,7 +43,7 @@ to enroll in them rightaway.
    - Deployed with **Firebase Hosting** with a **.tech** Domain
 
 
-### <span>Music Expanse<div class="link">[GitHub](https://github.com/rosekamallove/music-expanse) | [Deployed](https://music-expanse.herokuapp.com)</div></span> <span class="technologies">React & Django</span>
+### <span class="project-heading">Music Expanse<div class="link">[GitHub](https://github.com/rosekamallove/music-expanse) | [Deployed](https://music-expanse.herokuapp.com)</div></span> <span class="technologies">React & Django</span>
 
 A collaborative Music Controller on which we can create virtual room which the members of the room (joined by the unique
 room code) can Vote to skip or pause/play the song which is playing on the host's Spotify client
@@ -59,13 +54,14 @@ room code) can Vote to skip or pause/play the song which is playing on the host'
    - Deployed on **Heroku** with Continous Integration 
 
 
-### <span>VS Code Extension Template<div class="link">[GitHub](https://github.com/rosekamallove/vscode-extension-template)</div></span> <span class="technologies">Svelte & Node + MongoDB/Firestore</span>
+### <span class="project-heading">VS Code Extension Template<div class="link">[GitHub](https://github.com/rosekamallove/vscode-extension-template) | [Documentation](https://rosekamallove.github.io/vscode-extension-template)</div></span> <span class="technologies">Svelte & Node + MongoDB/Firestore</span>
 
-A mapping engine that misguides you:
+Creating a VS Code Extension requres a lot of boiler plate code so I wrote this template which contains all the boiler plate code needed to get started with writing the extension without wasting
+time on writing trivial code. 
 
-   - Won award at AIHacks 2016
-   - Built by all women team of newbie programmers
-   - Using modern technologies such as GoogleMaps, Chrome Extension and Javascript
+   - Backend written in **Node + Express** (TypeScript) with **CRUD** Functionality with both **MongoDB and Firestore** options
+   - **Github OAuth** fully implemented with **JSON Web Tokens**
+   - Frontend written with **Svelte** (TypeScript) with a **Polka** server for OAuth callback providing access tokens
 
 
 ## Education

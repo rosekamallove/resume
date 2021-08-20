@@ -104,6 +104,9 @@ a:hover{
     font-weight: 300;
     display: inline;
 }
+.project-heading{
+    font-size: 15px;
+}
 
 @media print {
     body {
@@ -154,10 +157,7 @@ a:hover{
 </head>
 <body>
 <div id="resume">
-<!-- The (first) h1 will be used as the <title> of the HTML page -->
 <h1>Rose Kamal Love</h1>
-<!-- The unordered list immediately after the h1 will be formatted on a single
-line. It is intended to be used for contact details -->
 <ul>
 <li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#111;&#115;&#101;&#107;&#97;&#109;&#97;&#108;&#108;&#111;&#118;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#114;&#111;&#115;&#101;&#107;&#97;&#109;&#97;&#108;&#108;&#111;&#118;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
 <li><a href="https://github.com/rosekamallove">GitHub</a></li>
@@ -167,8 +167,6 @@ line. It is intended to be used for contact details -->
 <li><a href="https://rosekamallove.github.io">Portfolio</a></li>
 </ul>
 <h2>Experience</h2>
-<!-- You have to wrap the "left" and "right" half of these headings in spans by
-hand -->
 <h3><span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 &ndash; August 2021</span></h3>
 <p>A 4-week Educational program offered by MLH <strong>powered by GitHub</strong> to level as a software engineer by collaborating
 on a real-world project by collaborating with people around the world through Standard Industry Practices. </p>
@@ -187,7 +185,7 @@ on a real-world project by collaborating with people around the world through St
 <!-- ## Competetive Achievments -->
 
 <h2>Projects</h2>
-<h3><span>YouTemy <div class="link"><a href="https://github.com/rosekamallove/youtemy">GitHub</a> | <a href="https://youtemy.tech">Deployed</a></div></span> <span class="technologies">React &amp; Firestore</span></h3>
+<h3><span class="project-heading">YouTemy <div class="link"><a href="https://github.com/rosekamallove/youtemy">GitHub</a> | <a href="https://youtemy.tech">Deployed</a></div></span> <span class="technologies">React &amp; Firestore</span></h3>
 <p>A platform providing the user the ability to track their YouTube course and offer recommended courses decided by the
 admin. Also provides the ability to Explore new courses and take a preview and then bookmark them if they don&rsquo;t want
 to enroll in them rightaway.</p>
@@ -197,7 +195,7 @@ to enroll in them rightaway.</p>
 <li>Tests written in <strong>Cypress</strong> with <strong>Continious Integration</strong> and <strong>Continous Deployement</strong> using GitHub Actions</li>
 <li>Deployed with <strong>Firebase Hosting</strong> with a <strong>.tech</strong> Domain</li>
 </ul>
-<h3><span>Music Expanse<div class="link"><a href="https://github.com/rosekamallove/music-expanse">GitHub</a> | <a href="https://music-expanse.herokuapp.com">Deployed</a></div></span> <span class="technologies">React &amp; Django</span></h3>
+<h3><span class="project-heading">Music Expanse<div class="link"><a href="https://github.com/rosekamallove/music-expanse">GitHub</a> | <a href="https://music-expanse.herokuapp.com">Deployed</a></div></span> <span class="technologies">React &amp; Django</span></h3>
 <p>A collaborative Music Controller on which we can create virtual room which the members of the room (joined by the unique
 room code) can Vote to skip or pause/play the song which is playing on the host&rsquo;s Spotify client</p>
 <ul>
@@ -206,12 +204,13 @@ room code) can Vote to skip or pause/play the song which is playing on the host&
        song details and play/pause songs from the frontend and handles the votes to Skip the song.</li>
 <li>Deployed on <strong>Heroku</strong> with Continous Integration </li>
 </ul>
-<h3><span>VS Code Extension Template<div class="link"><a href="https://github.com/rosekamallove/vscode-extension-template">GitHub</a></div></span> <span class="technologies">Svelte &amp; Node + MongoDB/Firestore</span></h3>
-<p>A mapping engine that misguides you:</p>
+<h3><span class="project-heading">VS Code Extension Template<div class="link"><a href="https://github.com/rosekamallove/vscode-extension-template">GitHub</a> | <a href="https://rosekamallove.github.io/vscode-extension-template">Documentation</a></div></span> <span class="technologies">Svelte &amp; Node + MongoDB/Firestore</span></h3>
+<p>Creating a VS Code Extension requres a lot of boiler plate code so I wrote this template which contains all the boiler plate code needed to get started with writing the extension without wasting
+time on writing trivial code. </p>
 <ul>
-<li>Won award at AIHacks 2016</li>
-<li>Built by all women team of newbie programmers</li>
-<li>Using modern technologies such as GoogleMaps, Chrome Extension and Javascript</li>
+<li>Backend written in <strong>Node + Express</strong> (TypeScript) with <strong>CRUD</strong> Functionality with both <strong>MongoDB and Firestore</strong> options</li>
+<li><strong>Github OAuth</strong> fully implemented with <strong>JSON Web Tokens</strong></li>
+<li>Frontend written with <strong>Svelte</strong> (TypeScript) with a <strong>Polka</strong> server for OAuth callback providing access tokens</li>
 </ul>
 <h2>Education</h2>
 <h3><span>BTech Computer Science &amp; Information Technology </span > <span class="technologies">2020 &ndash; 2024 [Expected]</span></h3>
