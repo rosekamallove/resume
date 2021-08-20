@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 body {
     color: #000000;
     background: #EEEEEE;
-    font: 1.1em "Helvetica";
+    font: 1em "Helvetica";
     line-height: 1.2;
     margin: 20px 0;
 }
@@ -16,7 +15,8 @@ body {
     -webkit-box-shadow: 2px 2px 4px #AAAAAA;
 }
 h1 {
-    color: #437CBA;
+    
+    color: #1080EA;
     text-transform: uppercase;
     text-align: center;
     font-size: 200%;
@@ -25,12 +25,12 @@ h1 {
 }
 h2 {
 
-    color: #437CBA;
-    border-bottom: 1px solid #437CBA;
+    color: #1080EA;
+    border-bottom: 1px solid #1080EA;
     /*text-transform: uppercase;*/
     font-size: 16px;
     font-weight: 600;
-    margin: 1em 0 0 0;
+    margin: 13px 0 0 0;
     padding: 0;
 }
 h3 {
@@ -45,7 +45,7 @@ p {
     padding: 0;
     }
 ul {
-    padding: 2px;
+    padding: 3px;
     margin: 0 1.5em;
     }
     li {
@@ -63,15 +63,14 @@ h1 + ul > li {
     list-style-type: none;
 }
 h1 + ul > li:after {
-    /*content: "  \2022  ";*/
-    content: "  |  ";
+    content: "  \2022  ";
 }
 h1 + ul > li:last-child:after {
     content: "";
 }
 /* p immediately after contact list = summary */
 h1 + ul + p {
-    margin: 1em 0;
+    margin: 1.5em 0;
 }
 
 a, a:link, a:visited  {
@@ -80,6 +79,7 @@ a, a:link, a:visited  {
 }
 
 a:hover{
+
     color: #0969DA;
     text-decoration: underline;
 }
@@ -116,7 +116,7 @@ a:hover{
     /* Make links black in PDF */
     /* Move this outside the print block to apply this in HTML too */
     a, a:link, a:visited, a:hover {
-        color: #000000;
+        color: #303030;
         text-decoration: underline;
     }
 }
@@ -124,7 +124,7 @@ a:hover{
     /* Change margins and paper size of PDF */
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
     size: letter;
-    margin: 0.5in 0.8in;
+    margin: 0.2in 0.3in;
 }
 @media screen and (max-width: 800px) {
     body {

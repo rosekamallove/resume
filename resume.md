@@ -22,12 +22,13 @@ on a real-world project by collaborating with people around the world through St
 
  - Integrated **AlanAI Voice Assistant** to the [Open Sourced Portfolio Template ](https://github.com/rosekamallove/Portfolio-MLH) to navigate around the website
    through voice Commands
- - Built the beta version of [YouTemy](https://github.com/rosekamallove/youtemy) which **Won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon**
+ - Built the beta version of **[YouTemy](https://github.com/rosekamallove/youtemy)** which **Won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon**
 
 ## Skills & Technologies
 
  - **Languages**: JavaScript/Typescript, Python, C/C++
  - **Frameworks**: ReactJS + NextJS, Svelte, Node & Express, MongoDB, Django, Firebase & Firestore
+ - **UI Libraries**: Bootstrap, Material UI, Ant Design
  - **Tools**: Git & Github, VSCode, VIM, Linux, Embold
 
 <!-- ## Competetive Achievments -->
@@ -66,11 +67,12 @@ A mapping engine that misguides you:
 
 ## Education
 
-### <span>MJP Rohilkhand University, B-Tech CS & IT</span> <span class="technologies">2020 - 2024 [Expected]</span>
+### <span>BTech Computer Science & Information Technology </span > <span class="technologies">2020 -- 2024 [Expected]</span>
+Mahatma Jyotiba Phule Rohilkhand University - Bareilly , Uttar Pradesh, India
 
 ### <span>Basubaral Saraswati Vihar, 12th <!-- <div class="marks"> Percentage: 84.6</div>--> </span > <span class="technologies">2020</span>
-   - Percentage: 84.6
+Percentage: 84.6
 
 ### <span>Sobtis Public School, 10th <!--<div class="marks"> Percentage: 84.4 </div> --></span> <span class="technologies">2018</span>
-   - Percentage: 84.4
+Percentage: 84.4
 
