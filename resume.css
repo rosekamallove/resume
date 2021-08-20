@@ -16,16 +16,20 @@ body {
     -webkit-box-shadow: 2px 2px 4px #AAAAAA;
 }
 h1 {
+    color: #437CBA;
     text-transform: uppercase;
     text-align: center;
     font-size: 200%;
     margin: 0;
-    padding: 0;
+    padding-bottom: 5px;
 }
 h2 {
-    border-bottom: 1px solid #000000;
-    text-transform: uppercase;
-    font-size: 100%;
+
+    color: #437CBA;
+    border-bottom: 1px solid #437CBA;
+    /*text-transform: uppercase;*/
+    font-size: 16px;
+    font-weight: 600;
     margin: 1em 0 0 0;
     padding: 0;
 }
@@ -59,7 +63,8 @@ h1 + ul > li {
     list-style-type: none;
 }
 h1 + ul > li:after {
-    content: "  \2022  ";
+    /*content: "  \2022  ";*/
+    content: "  |  ";
 }
 h1 + ul > li:last-child:after {
     content: "";
