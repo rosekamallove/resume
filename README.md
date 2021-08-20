@@ -1,54 +1,77 @@
-# resume.md
+<!-- The (first) h1 will be used as the <title> of the HTML page -->
+# Rose Kamal Love
 
-![Resume](resume.png)
+<!-- The unordered list immediately after the h1 will be formatted on a single
+line. It is intended to be used for contact details -->
+- <rosekamallove@gmail.com>
+- [GitHub](https://github.com/rosekamallove)
+- [LinkedIn](https://www.linkedin.com/in/rose-kamal-love-1146141b0/)
+- [CodeChef](https://codechef.com/users/rosekamallove)
+- [CodeForces](https://codeforces.com/profile/rosekamallove)
+- [Portfolio](https://rosekamallove.github.io)
 
-Write your resume in
-[Markdown](https://raw.githubusercontent.com/mikepqr/resume.md/main/resume.md),
-style it with [CSS](resume.css), output to [HTML](resume.html) and
-[PDF](resume.pdf).
 
-## Prerequisites
+## Experience
 
- - Python ≥ 3.6
- - [python-markdown](https://python-markdown.github.io/) (`pip install
-   markdown`)
- - Optional, required for PDF output: Google Chrome or Chromium
+<!-- You have to wrap the "left" and "right" half of these headings in spans by
+hand -->
+### <span>MLH Fellowship</span> <span>Dec 2013 -- Dec 2014</span>
 
-## Usage
+Pied Piper is a multi-platform technology based on a proprietary universal
+compression algorithm that has consistently fielded high Weisman Scores™ that
+are not merely competitive, but approach the theoretical limit of lossless
+compression.
 
- 1. Download [resume.py](resume.py), [resume.md](resume.md) and
-    [resume.css](resume.css) (or make a copy of this repository by [using the
-    template](https://github.com/mikepqr/resume.md/generate), forking, or
-    cloning).
+ - Build an algorithm for artist to detect if their music was violating
+   copyright infringement laws
+ - **Successfully** won Techcrunch Disrupt
+ - Optimized an algorithm that holds the current world record for Weisman Scores
 
- 2. Edit [resume.md](resume.md) (the placeholder text is taken with thanks from
-    the [JSON Resume Project](https://jsonresume.org/themes/))
+### <span>Teacher, CoderDojo</span> <span>July 2013 -- Dec 2013</span>
 
- 3. Run `python3 resume.py` to build resume.html and resume.pdf.
+Global movement of free coding clubs for young people.
 
-     - Use `--no-html` or `--no-pdf` to disable HTML or PDF output.
+ - Awarded 'Teacher of the Month'
 
-     - Use `--chrome-path=/path/to/chrome` if resume.py cannot find your Chrome
-       or Chromium executable.
+## Skills & Technologies
 
-## Customization
+ - **Languages**: JavaScript/Typescript, Python, C/C++
+ - **Frameworks**: ReactJS + NextJS, Svelte, Node & Express, MongoDB, Django, Firebase & Firestore
+ - **Tools**: Git & Github, VSCode, VIM, Linux, Embold, 
 
-Edit [resume.css](resume.css) to change the appearance of your resume. The
-default style is extremely generic, which is perhaps what you want in a resume,
-but CSS gives you a lot of flexibility. See, e.g. [The Tech Resume
-Inside-Out](https://www.thetechinterview.com/) for good advice about what a
-resume should look like (and what it should say).
+## Competetive Achievments
 
-Change the appearance of the PDF version (without affecting the HTML version) by
-adding rules under the `@media print` CSS selector.
 
-Change the margins and paper size of the PDF version by editing the [`@page` CSS
-rule](https://developer.mozilla.org/en-US/docs/Web/CSS/%40page/size).
+## Projects
 
-[python-markdown](https://python-markdown.github.io/) is by default a very basic
-markdown compiler, but it has a number of optional extensions that you may want
-to enable (by adding to [the list of extensions
-here](https://github.com/mikepqr/resume.md/blob/5d99e02bf65ff6a2a0ccd18c1a0255c26ec59377/resume.py#L41)).
-<code><a
-href="https://python-markdown.github.io/extensions/attr_list/">attr_list</a></code>
-in particular may by useful if you are editing the CSS.
+### <span>YouTemy <div class="link">[GitHub](https://github.com/rosekamallove/youtemy) | [Deployed](https://youtemy.tech)</div></span> <span class="technologies">(React & Firestore)</span>
+
+A platform providing the user the ability to track their YouTube course and offers recommended courses decided by the
+admin.
+
+   - Won award at AIHacks 2016
+   - Built by all women team of newbie programmers
+   - Using modern technologies such as GoogleMaps, Chrome Extension and Javascript
+
+### <span>Music Expanse<div class="link">[GitHub](https://github.com/rosekamallove/music-expanse) | [Deployed](https://music-expanse.herokuapp.com)</div></span> <span class="technologies">(React & Django)</span>
+
+A mapping engine that misguides you:
+
+   - Won award at AIHacks 2016
+   - Built by all women team of newbie programmers
+   - Using modern technologies such as GoogleMaps, Chrome Extension and Javascript
+
+### <span>VS Code Extension Template<div class="link">[GitHub](https://github.com/rosekamallove/vscode-extension-template)</div></span> <span class="technologies">(Svelte & Node + MongoDB/Firestore)</span>
+
+A mapping engine that misguides you:
+
+   - Won award at AIHacks 2016
+   - Built by all women team of newbie programmers
+   - Using modern technologies such as GoogleMaps, Chrome Extension and Javascript
+
+
+## Education
+### <span>MJP Rohilkhand University, B-Tech CS & IT</span> <span class="technologies">2020 - 2024 [Expected]</span>
+### <span>Basubaral Saraswati Vihar, 12th <div class="marks"> Percentage: 84.6</div></span > <span class="technologies">2020</span>
+### <span>Sobtis Public School, 10th <div class="marks"> Percentage: 84.4 </div></span> <span class="technologies">2018</span>
+
