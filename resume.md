@@ -11,10 +11,8 @@
 ## Education
 ### <span class="ed-heading">BTech Computer Science & Information Technology </span > <span class="technologies">2020 -- 2024 [Expected]</span>
 Mahatma Jyotiba Phule Rohilkhand University - Bareilly , Uttar Pradesh, India
-
 ### <span class="ed-heading">Basubaral Saraswati Vihar - 12th <!-- <div class="marks"> Percentage: 84.6</div>--> </span > <span class="technologies">2020</span>
 Percentage: 84.6
-
 ### <span class="ed-heading">Sobtis Public School - 10th <!--<div class="marks"> Percentage: 84.4 </div> --></span> <span class="technologies">2018</span>
 Percentage: 84.4
 
@@ -37,8 +35,8 @@ on a real-world project by collaborating with people around the world through St
 
 
 ## Projects
-### <span class="project-heading">YouTemy <div class="link">[GitHub](https://github.com/rosekamallove/youtemy) | [Deployed](https://youtemy.tech)</div></span> <span class="technologies">React & Firestore</span>
 
+### <span class="project-heading">YouTemy <div class="link">[GitHub](https://github.com/rosekamallove/youtemy) | [Deployed](https://youtemy.tech)</div></span> <span class="technologies">React & Firestore</span>
 A platform providing the user the ability to track their YouTube course and offer recommended courses decided by the
 admin. 
 
@@ -49,7 +47,6 @@ admin.
 
 
 ### <span class="project-heading">Music Expanse<div class="link">[GitHub](https://github.com/rosekamallove/music-expanse) | [Deployed](https://music-expanse.herokuapp.com)</div></span> <span class="technologies">React & Django</span>
-
 Music Controller to control music based on votes of the members.
 
    - Built with **ReactJS** on the frontend using **Material UI**
