@@ -102,6 +102,10 @@ a:hover{
 .project-heading{
     font-size: 15px;
 }
+.ed-heading{
+    margin: 0;
+    padding: 0;
+}
 
 @media print {
     body {
@@ -145,5 +149,8 @@ a:hover{
         background: none;
         box-shadow: none;
         -webkit-box-shadow: none;
+    }
+    .project-heading{
+        font-size: 15px;
     }
 }
