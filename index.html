@@ -3,25 +3,31 @@
 <meta charset="UTF-8">
 <title>Rose Kamal Love</title>
 <style>
+:root {
+    --accent-color: #03998b;
+    --accent-color-dark: #008276;
+    --text-color: #212121;
+    --backgroung-color: #f0f0f0;
+}
 body {
-    color: #000000;
-    background: #EEEEEE;
-    font: 1em "Helvetica";
-    line-height: 1.2;
+    color: var(--text-color);
+    background: var(--backgound-color);
+    line-height: 1;
     margin: 20px 0;
+    font: 1em "Helvetica", "Monsterrat", "Arial";
 }
 #resume {
     margin: 0 auto;
     max-width: 900px;
     padding: 20px 30px;
-    background: #FFFFFF;
+    background: var(--background-color);
     border: 1px solid #CCCCCC;
     box-shadow: 2px 2px 4px #AAAAAA;
     -webkit-box-shadow: 2px 2px 4px #AAAAAA;
 }
 h1 {
     
-    color: #1080EA;
+    color: var(--accent-color);
     text-transform: uppercase;
     text-align: center;
     font-size: 200%;
@@ -30,8 +36,8 @@ h1 {
 }
 h2 {
 
-    color: #1080EA;
-    border-bottom: 1px solid #1080EA;
+    color: var(--accent-color);
+    border-bottom: 0.5px solid var(--accent-color);
     /*text-transform: uppercase;*/
     font-size: 16px;
     font-weight: 600;
@@ -50,11 +56,11 @@ p {
     padding: 0;
     }
 ul {
-    padding: 3px;
+    padding: 2px;
     margin: 0 1.5em;
     }
     li {
-        padding-top: 5px;
+        padding-top: 3.5px;
     }
 /* ul immediately after h1 = contact list */
 h1 + ul {
@@ -79,13 +85,13 @@ h1 + ul + p {
 }
 
 a, a:link, a:visited  {
-    color: #0969DA;
+    color: var(--accent-color-dark);
     text-decoration: none;
 }
 
 a:hover{
 
-    color: #0969DA;
+    color: var(--accent-color)
     text-decoration: underline;
 }
 
@@ -93,11 +99,12 @@ a:hover{
     display: inline;
     padding-left: 5px;
     padding-bottom: 5px;
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 400;
 }
 .technologies {
-    font-weight: 500;
-    color: #0969DA;
+    font-weight: 600;
+    color: var(--accent-color);
     font-size: 13px;
 }
 .marks {
@@ -114,13 +121,13 @@ a:hover{
 
 @media print {
     body {
-        font-size: 10pt;
+        font-size: 11pt;
         margin: 0;
         padding: 0;
         background: none;
     }
     #resume {
-        margin: 0;
+        margin: 15px 7.5px 15px 7.5px;
         padding: 0;
         border: 0px;
         background: none;
@@ -130,14 +137,13 @@ a:hover{
     /* Make links black in PDF */
     /* Move this outside the print block to apply this in HTML too */
     a, a:link, a:visited, a:hover {
-        color: #303030;
-        text-decoration: underline;
+        color: var(--accent-color-dark);
     }
 }
 @page {
     /* Change margins and paper size of PDF */
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
-    size: letter;
+    size: A4;
     margin: 0.2in 0.3in;
 }
 @media screen and (max-width: 800px) {
@@ -175,27 +181,20 @@ a:hover{
 <!--- [CodeForces](https://codeforces.com/profile/rosekamallove)-->
 
 <h2>Education</h2>
-<h3><span class="ed-heading">BTech Computer Science &amp; Information Technology </span > <span class="technologies">2020 &ndash; 2024 [Expected]</span></h3>
-<p>Mahatma Jyotiba Phule Rohilkhand University - Bareilly , Uttar Pradesh, India</p>
+<h3><span class="ed-heading">Bachelor of Technology in Computer Science &amp; Information Technology </span > <span class="technologies">2020 &ndash; 2024 [Expected]</span></h3>
+<p>Mahatma Jyotiba Phule Rohilkhand University - Bareilly, Uttar Pradesh, India</p>
 <h3><span class="ed-heading">Basubaral Saraswati Vihar - 12th <!-- <div class="marks"> Percentage: 84.6</div>--> </span > <span class="technologies">2020</span></h3>
 <p>Percentage: 84.6</p>
 <h3><span class="ed-heading">Sobtis Public School - 10th <!--<div class="marks"> Percentage: 84.4 </div> --></span> <span class="technologies">2018</span></h3>
 <p>Percentage: 84.4</p>
 <h2>Experience</h2>
 <h3><span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 &ndash; August 2021</span></h3>
-<p>A 4-week Educational program offered by MLH <strong>powered by GitHub</strong> to level as a software engineer by collaborating
+<p>A 4-week Educational program offered by MLH <strong>powered by GitHub</strong> to level up as a software engineer by collaborating
 on a real-world project by collaborating with people around the world through Standard Industry Practices. </p>
 <ul>
 <li>Integrated <strong>AlanAI Voice Assistant</strong> to the <a href="https://github.com/rosekamallove/Portfolio-MLH">Open Sourced Portfolio Template </a> to navigate around the website
    through Voice Commands</li>
 <li>Built the beta version of <strong><a href="https://github.com/rosekamallove/youtemy">YouTemy</a></strong> which <strong>Won</strong> the MLH Pre-Fellowship 3 Week Sprint <strong>Hackathon</strong></li>
-</ul>
-<h2>Skills &amp; Technologies</h2>
-<ul>
-<li><strong>Languages</strong>: JavaScript/Typescript, Python, C/C++</li>
-<li><strong>Frameworks</strong>: ReactJS, Svelte, Node &amp; Express, MongoDB, Django, Firebase &amp; Firestore</li>
-<li><strong>UI Libraries</strong>: Bootstrap, Material UI, Ant Design</li>
-<li><strong>Tools</strong>: Git &amp; Github, VSCode, VIM, Linux, Embold</li>
 </ul>
 <h2>Projects</h2>
 <h3><span class="project-heading">YouTemy <div class="link"><a href="https://github.com/rosekamallove/youtemy">GitHub</a> | <a href="https://youtemy.tech">Deployed</a></div></span> <span class="technologies">React &amp; Firestore</span></h3>
@@ -204,7 +203,7 @@ admin. </p>
 <ul>
 <li><strong>Won</strong> the MLH Pre-Fellowship 3 Week Sprint <strong>Hackathon</strong></li>
 <li>Built with <strong>ReachJS</strong> using the <strong>YouTube Data API</strong> and using <strong>Firestore</strong> as a Database</li>
-<li>Tests written in <strong>Cypress</strong> with <strong>Continious Integration</strong> and <strong>Continous Deployement</strong> using GitHub Actions</li>
+<li>Integration Tests written in <strong>Cypress</strong> with <strong>Continious Integration</strong> &amp; <strong>Continous Deployement</strong> (GitHub Actions)</li>
 <li>Deployed with <strong>Firebase Hosting</strong> with a <strong>.tech</strong> Domain</li>
 </ul>
 <h3><span class="project-heading">Music Expanse<div class="link"><a href="https://github.com/rosekamallove/music-expanse">GitHub</a> | <a href="https://music-expanse.herokuapp.com">Deployed</a></div></span> <span class="technologies">React &amp; Django</span></h3>
@@ -217,14 +216,21 @@ admin. </p>
 <h3><span class="project-heading">VS Code Extension Template<div class="link"><a href="https://github.com/rosekamallove/vscode-extension-template">GitHub</a> | <a href="https://rosekamallove.github.io/vscode-extension-template">Documentation</a></div></span> <span class="technologies">Svelte &amp; Node + MongoDB/Firestore</span></h3>
 <ul>
 <li>Backend written in <strong>Node + Express</strong> (TypeScript) with <strong>CRUD</strong> Functionality with both <strong>MongoDB and Firestore</strong> options</li>
-<li><strong>Github OAuth</strong> fully implemented with <strong>JSON Web Tokens</strong></li>
+<li><strong>Github OAuth</strong> implemented with <strong>Passport.js &amp; JWT</strong></li>
 <li>Frontend written with <strong>Svelte</strong> (TypeScript) with a <strong>Polka</strong> server for OAuth callback providing access tokens</li>
 </ul>
 <h2>Competetive Achievments</h2>
 <ul>
-<li>3 &#9734; <strong>CodeChef</strong></li>
+<li><strong>3 &#9734; CodeChef</strong> (<em>Max Rating: 1681</em>)</li>
 <li>Global Rank <strong>358</strong> of 9576 CodeChef Lunchtime (Div.3)</li>
 <li>Global Rank <strong>712</strong> of 7176 CodeChef CookOff (Div.3)</li>
+</ul>
+<h2>Skills &amp; Technologies</h2>
+<ul>
+<li><strong>Languages</strong>: JavaScript/Typescript, Python, C/C++</li>
+<li><strong>Frameworks</strong>: ReactJS, Svelte, Node &amp; Express, MongoDB, Django, Firebase &amp; Firestore</li>
+<li><strong>UI Libraries</strong>: Bootstrap, Material UI, Ant Design</li>
+<li><strong>Tools</strong>: Git &amp; Github, VSCode, VIM, Linux, Embold</li>
 </ul></div>
 </body>
 </html>
