@@ -115,7 +115,7 @@ a:hover{
         background: none;
     }
     #resume {
-        margin: 0;
+        margin: 15px 7.5px 15px 7.5px;
         padding: 0;
         border: 0px;
         background: none;
@@ -132,7 +132,7 @@ a:hover{
 @page {
     /* Change margins and paper size of PDF */
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
-    size: letter;
+    size: A4;
     margin: 0.2in 0.3in;
 }
 @media screen and (max-width: 800px) {

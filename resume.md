@@ -27,13 +27,6 @@ on a real-world project by collaborating with people around the world through St
    through Voice Commands
  - Built the beta version of **[YouTemy](https://github.com/rosekamallove/youtemy)** which **Won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon**
 
-## Skills & Technologies
- - **Languages**: JavaScript/Typescript, Python, C/C++
- - **Frameworks**: ReactJS, Svelte, Node & Express, MongoDB, Django, Firebase & Firestore
- - **UI Libraries**: Bootstrap, Material UI, Ant Design
- - **Tools**: Git & Github, VSCode, VIM, Linux, Embold
-
-
 ## Projects
 
 ### <span class="project-heading">YouTemy <div class="link">[GitHub](https://github.com/rosekamallove/youtemy) | [Deployed](https://youtemy.tech)</div></span> <span class="technologies">React & Firestore</span>
@@ -63,3 +56,10 @@ Music Controller to control music based on votes of the members.
 - 3 &#9734 **CodeChef**
 - Global Rank **358** of 9576 CodeChef Lunchtime (Div.3)
 - Global Rank **712** of 7176 CodeChef CookOff (Div.3)
+
+## Skills & Technologies
+ - **Languages**: JavaScript/Typescript, Python, C/C++
+ - **Frameworks**: ReactJS, Svelte, Node & Express, MongoDB, Django, Firebase & Firestore
+ - **UI Libraries**: Bootstrap, Material UI, Ant Design
+ - **Tools**: Git & Github, VSCode, VIM, Linux, Embold
+
