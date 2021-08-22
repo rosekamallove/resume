@@ -9,8 +9,8 @@
 
 
 ## Education
-### <span class="ed-heading">BTech Computer Science & Information Technology </span > <span class="technologies">2020 -- 2024 [Expected]</span>
-Mahatma Jyotiba Phule Rohilkhand University - Bareilly , Uttar Pradesh, India
+### <span class="ed-heading">Bachelor of Technology in Computer Science & Information Technology </span > <span class="technologies">2020 -- 2024 [Expected]</span>
+Mahatma Jyotiba Phule Rohilkhand University - Bareilly, Uttar Pradesh, India
 ### <span class="ed-heading">Basubaral Saraswati Vihar - 12th <!-- <div class="marks"> Percentage: 84.6</div>--> </span > <span class="technologies">2020</span>
 Percentage: 84.6
 ### <span class="ed-heading">Sobtis Public School - 10th <!--<div class="marks"> Percentage: 84.4 </div> --></span> <span class="technologies">2018</span>
@@ -20,7 +20,7 @@ Percentage: 84.4
 ## Experience
 ### <span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 -- August 2021</span>
 
-A 4-week Educational program offered by MLH **powered by GitHub** to level as a software engineer by collaborating
+A 4-week Educational program offered by MLH **powered by GitHub** to level up as a software engineer by collaborating
 on a real-world project by collaborating with people around the world through Standard Industry Practices. 
 
  - Integrated **AlanAI Voice Assistant** to the [Open Sourced Portfolio Template ](https://github.com/rosekamallove/Portfolio-MLH) to navigate around the website
@@ -35,7 +35,7 @@ admin.
 
    - **Won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon**
    - Built with **ReachJS** using the **YouTube Data API** and using **Firestore** as a Database
-   - Tests written in **Cypress** with **Continious Integration** and **Continous Deployement** using GitHub Actions
+   - Integration Tests written in **Cypress** with **Continious Integration** & **Continous Deployement** (GitHub Actions)
    - Deployed with **Firebase Hosting** with a **.tech** Domain
 
 
@@ -49,11 +49,11 @@ Music Controller to control music based on votes of the members.
 ### <span class="project-heading">VS Code Extension Template<div class="link">[GitHub](https://github.com/rosekamallove/vscode-extension-template) | [Documentation](https://rosekamallove.github.io/vscode-extension-template)</div></span> <span class="technologies">Svelte & Node + MongoDB/Firestore</span>
 
    - Backend written in **Node + Express** (TypeScript) with **CRUD** Functionality with both **MongoDB and Firestore** options
-   - **Github OAuth** fully implemented with **JSON Web Tokens**
+   - **Github OAuth** implemented with **Passport.js & JWT**
    - Frontend written with **Svelte** (TypeScript) with a **Polka** server for OAuth callback providing access tokens
 
 ## Competetive Achievments
-- 3 &#9734 **CodeChef**
+- **3 &#9734 CodeChef** (_Max Rating: 1681_)
 - Global Rank **358** of 9576 CodeChef Lunchtime (Div.3)
 - Global Rank **712** of 7176 CodeChef CookOff (Div.3)
 

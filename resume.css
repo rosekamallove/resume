@@ -1,22 +1,28 @@
+:root {
+    --accent-color: #03998b;
+    --accent-color-dark: #008276;
+    --text-color: #212121;
+    --backgroung-color: #f0f0f0;
+}
 body {
-    color: #000000;
-    background: #EEEEEE;
-    font: 1em "Helvetica";
+    color: var(--text-color);
+    background: var(--backgound-color);
     line-height: 1.2;
     margin: 20px 0;
+    font: 1em "Helvetica", "Monsterrat", "Arial";
 }
 #resume {
     margin: 0 auto;
     max-width: 900px;
     padding: 20px 30px;
-    background: #FFFFFF;
+    background: var(--background-color);
     border: 1px solid #CCCCCC;
     box-shadow: 2px 2px 4px #AAAAAA;
     -webkit-box-shadow: 2px 2px 4px #AAAAAA;
 }
 h1 {
     
-    color: #1080EA;
+    color: var(--accent-color);
     text-transform: uppercase;
     text-align: center;
     font-size: 200%;
@@ -25,8 +31,8 @@ h1 {
 }
 h2 {
 
-    color: #1080EA;
-    border-bottom: 1px solid #1080EA;
+    color: var(--accent-color);
+    border-bottom: 0.5px solid var(--accent-color);
     /*text-transform: uppercase;*/
     font-size: 16px;
     font-weight: 600;
@@ -45,11 +51,11 @@ p {
     padding: 0;
     }
 ul {
-    padding: 3px;
+    padding: 2px;
     margin: 0 1.5em;
     }
     li {
-        padding-top: 5px;
+        padding-top: 3.5px;
     }
 /* ul immediately after h1 = contact list */
 h1 + ul {
@@ -80,7 +86,7 @@ a, a:link, a:visited  {
 
 a:hover{
 
-    color: #0969DA;
+    color: var(--accent-color)
     text-decoration: underline;
 }
 
@@ -88,11 +94,12 @@ a:hover{
     display: inline;
     padding-left: 5px;
     padding-bottom: 5px;
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 400;
 }
 .technologies {
-    font-weight: 500;
-    color: #0969DA;
+    font-weight: 600;
+    color: var(--accent-color);
     font-size: 13px;
 }
 .marks {
@@ -109,7 +116,7 @@ a:hover{
 
 @media print {
     body {
-        font-size: 10pt;
+        font-size: 11pt;
         margin: 0;
         padding: 0;
         background: none;
@@ -125,8 +132,7 @@ a:hover{
     /* Make links black in PDF */
     /* Move this outside the print block to apply this in HTML too */
     a, a:link, a:visited, a:hover {
-        color: #303030;
-        text-decoration: underline;
+        color: var(--accent-color-dark);
     }
 }
 @page {
