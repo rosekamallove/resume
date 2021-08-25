@@ -9,7 +9,7 @@
 
 ## Education
 
-### <span class="ed-heading">Bachelor of Technology in Computer Science & Information Technology </span > <span class="technologies">2020 -- 2024 [Expected]</span>
+### <span class="ed-heading">Bachelor of Technology in Computer Science & Information Technology </span > <span class="technologies">2020 -- 2024 </span>
 
 Mahatma Jyotiba Phule Rohilkhand University - Bareilly, Uttar Pradesh, India
 
@@ -30,7 +30,7 @@ on a real-world project by collaborating with people around the world through St
 
 - Integrated **AlanAI Voice Assistant** to the [Open Sourced Portfolio Template ](https://github.com/rosekamallove/Portfolio-MLH) to navigate around the website
   through Voice Commands
-- Built the beta version of **[YouTemy](https://github.com/rosekamallove/youtemy)** which **Won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon**
+- Built the beta version of **[YouTemy](https://github.com/rosekamallove/youtemy)** which **won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon**
 
 ## Projects
 

@@ -1,6 +1,7 @@
 :root {
     --accent-color: #03998b;
     --accent-color-dark: #008276;
+    --accent-color-light: #00c2b0;
     --text-color: #212121;
     --backgroung-color: #f0f0f0;
 }
@@ -21,9 +22,7 @@ body {
     -webkit-box-shadow: 2px 2px 4px #AAAAAA;
 }
 h1 {
-    
     color: var(--accent-color);
-    text-transform: uppercase;
     text-align: center;
     font-size: 200%;
     margin: 0;
@@ -32,7 +31,7 @@ h1 {
 h2 {
 
     color: var(--accent-color);
-    border-bottom: 0.5px solid var(--accent-color);
+    border-bottom: 1px solid var(--accent-color-light);
     /*text-transform: uppercase;*/
     font-size: 16px;
     font-weight: 600;
