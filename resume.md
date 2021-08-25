@@ -13,11 +13,11 @@
 
 Mahatma Jyotiba Phule Rohilkhand University - Bareilly, Uttar Pradesh, India
 
-### <span class="ed-heading">Basubaral Saraswati Vihar - 12th <!-- <div class="marks"> Percentage: 84.6</div>--> </span > <span class="technologies">2020</span>
+### <span class="ed-heading">Basubaral Saraswati Vihar (CBSE) - 12th <!-- <div class="marks"> Percentage: 84.6</div>--> </span > <span class="technologies">2020</span>
 
 Percentage: 84.6
 
-### <span class="ed-heading">Sobtis Public School - 10th <!--<div class="marks"> Percentage: 84.4 </div> --></span> <span class="technologies">2018</span>
+### <span class="ed-heading">Sobtis Public School (CBSE) - 10th <!--<div class="marks"> Percentage: 84.4 </div> --></span> <span class="technologies">2018</span>
 
 Percentage: 84.4
 
