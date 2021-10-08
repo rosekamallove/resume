@@ -4,7 +4,7 @@
 - [GitHub](https://github.com/rosekamallove)
 - [LinkedIn](https://www.linkedin.com/in/rose-kamal-love-1146141b0/)
 - [CodeChef](https://codechef.com/users/rosekamallove)
-- [Portfolio](https://rosekamallove.github.io)
+- [Devpost](https://devpost.com/rosekamallove)
 <!--- [CodeForces](https://codeforces.com/profile/rosekamallove)-->
 
 ## Education
@@ -15,11 +15,21 @@ Mahatma Jyotiba Phule Rohilkhand University - Bareilly, Uttar Pradesh, India
 
 ### <span class="ed-heading">Basubaral Saraswati Vihar (CBSE) - 12th <!-- <div class="marks"> Percentage: 84.6</div>--> </span > <span class="technologies">2020</span>
 
-Percentage: 84.6
+Percentage: 84.6/100
+
+### <span class="ed-heading">Sobtis Public School - 10th <!--<div class="marks"> Percentage: 84.4 </div> --></span> <span class="technologies">2018</span>
+
+Percentage: 84.4/100
 
 ## Experience
 
+### <span>MLH Fellowship (Open Source Developer)</span> <span class="technologies">September 2021 -- December 2021</span>
+
+The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open Source projects that every company depends on.
+
 ### <span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 -- August 2021</span>
+
+A 4-week Educational program offered by MLH powered by GitHub to level up as a software engineer by contributing on a real-world project by collaborating with people around the world through Standard Industry Practices.
 
 - Integrated **AlanAI Voice Assistant** to the [Open Sourced Portfolio Template ](https://github.com/rosekamallove/Portfolio-MLH) to navigate around the website
   through Voice Commands
@@ -29,8 +39,7 @@ Percentage: 84.6
 
 ### <span class="project-heading">YouTemy <div class="link">[GitHub](https://github.com/rosekamallove/youtemy) | [Deployed](https://youtemy.tech)</div></span> <span class="technologies">React, Firestore, YouTube Data API & Cypress</span>
 
-A platform providing the user the ability to track their YouTube course and offer recommended courses decided by the
-admin.
+A platform providing the user the ability to track YouTube course and offer recommended courses.
 
 - Built with **ReachJS** using the **YouTube Data API** and using **Firestore** as a Database
 - Integration Tests written in **Cypress** with **Continious Integration** & **Continous Deployement** (GitHub Actions)
@@ -62,4 +71,4 @@ Music Controller to control music on Spotify based on votes of the members in a 
 - **Languages**: JavaScript/Typescript, Python, C/C++
 - **Frameworks**: ReactJS, Svelte, Node & Express, MongoDB, Django, Firebase & Firestore
 - **UI Libraries**: Bootstrap, Material UI, Ant Design
-- **Tools**: Git & Github, VSCode, VIM, Linux, Embold
+- **Tools**: Git & Github, VSCode, Vim, Linux, Embold
