@@ -2,7 +2,8 @@
     --accent-color: #03998b;
     --accent-color-dark: #008276;
     --accent-color-light: #00c2b0;
-    --text-color: #212121;
+    /*--text-color: #3d3d3d;*/
+    --text-color: #1e3323;
     --backgroung-color: #f0f0f0;
 }
 body {
