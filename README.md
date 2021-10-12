@@ -1,6 +1,6 @@
 # resume.md
 
-![Resume](resume.png)
+<!-- ![Resume](resume.png) -->
 
 Write your resume in
 [Markdown](https://raw.githubusercontent.com/mikepqr/resume.md/main/resume.md),
