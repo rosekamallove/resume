@@ -3,8 +3,8 @@
 - <rosekamallove@gmail.com>
 - [GitHub](https://github.com/rosekamallove)
 - [LinkedIn](https://www.linkedin.com/in/rose-kamal-love-1146141b0/)
-- [CodeChef](https://codechef.com/users/rosekamallove)
 - [Devpost](https://devpost.com/rosekamallove)
+- [CodeChef](https://codechef.com/users/rosekamallove)
 <!--- [CodeForces](https://codeforces.com/profile/rosekamallove)-->
 
 ## Education
@@ -39,7 +39,7 @@ A platform providing the user the ability to track YouTube course and offer reco
 
 - Built with **ReactJS** using the **YouTube Data API** and **Firestore** as the Database
 - **Continious Integration** & **Continous Deployement** with GitHub Actions
-- Deployed with **Firebase Hosting** with a **.tech** Domain
+- Deployed using **Firebase Hosting** with a **.tech** Domain
 
 ### <span class="project-heading">Music Expanse<div class="link">[GitHub](https://github.com/rosekamallove/music-expanse) | [Deployed](https://music-expanse.herokuapp.com)</div></span> <span class="technologies">React, Django, Spotify API, Material UI</span>
 
