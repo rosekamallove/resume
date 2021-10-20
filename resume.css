@@ -1,7 +1,7 @@
 :root {
   --accent-color: #03998b;
   --accent-color-dark: #008276;
-  --accent-color-light: #00c2b0;
+  --accent-color-light: #03998b;
   --text-color: #3d3d3d;
   --backgroung-color: #f0f0f0;
 }
@@ -39,7 +39,7 @@ h2 {
   padding: 0;
 }
 h3 {
-  color: var(--accent-color);
+  color: var(--text-color);
   font-size: 95%;
   font-weight: 600;
   margin: 0.8em 0 0.12em 0;
@@ -106,15 +106,15 @@ a:hover {
   padding-left: 5px;
   padding-bottom: 5px;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 600;
 }
 .technologies {
-  font-weight: 600;
+  font-weight: 400;
   color: var(--accent-color);
   font-size: 13px;
 }
 .marks {
-  font-weight: 300;
+  font-weight: 600;
   display: inline;
 }
 .project-heading {
@@ -127,7 +127,7 @@ a:hover {
 
 @media print {
   body {
-    font-size: 12pt;
+    font-size: 12.3pt;
     margin: 0;
     padding: 0;
     background: none;
@@ -146,9 +146,8 @@ a:hover {
   a:link,
   a:visited,
   a:hover {
-    color: var(--accent-color-dark);
+    color: var(--accent-color-light);
     text-decoration: underline;
-    text-decoration-style: dotted;
   }
 }
 @page {
