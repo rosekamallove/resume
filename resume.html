@@ -4,166 +4,182 @@
 <title>Rose Kamal Love</title>
 <style>
 :root {
-    --accent-color: #03998b;
-    --accent-color-dark: #008276;
-    --accent-color-light: #00c2b0;
-    --text-color: #3d3d3d;
-    --backgroung-color: #f0f0f0;
+  --accent-color: #03998b;
+  --accent-color-dark: #008276;
+  --accent-color-light: #00c2b0;
+  --text-color: #3d3d3d;
+  --backgroung-color: #f0f0f0;
 }
 body {
-    color: var(--text-color);
-    background: var(--backgound-color);
-    line-height: 1;
-    margin: 20px 0;
-    font: 1em "Helvetica", "Monsterrat", "Arial";
+  color: var(--text-color);
+  background: var(--backgound-color);
+  line-height: 1;
+  margin: 20px 0;
+  font-size: 1.2em;
+  font-family: "Calibri", "Arial";
 }
 #resume {
-    margin: 0 auto;
-    max-width: 900px;
-    padding: 20px 30px;
-    background: var(--background-color);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 20px 30px;
+  background: var(--background-color);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 h1 {
-    color: var(--accent-color);
-    text-align: center;
-    font-size: 200%;
-    margin: 0;
-    padding-bottom: 5px;
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 200%;
+  margin: 0;
+  padding-bottom: 5px;
 }
 h2 {
-
-    color: var(--accent-color);
-    border-bottom: 1px dotted var(--accent-color-light);
-    /*text-transform: uppercase;*/
-    font-size: 16px;
-    font-weight: 600;
-    margin: 13px 0 0 0;
-    padding: 0;
+  color: var(--accent-color);
+  border-bottom: 1px dotted var(--accent-color-light);
+  font-size: 120%;
+  font-weight: 800;
+  margin: 13px 0 0 0;
+  padding: 0;
 }
 h3 {
-    font-size: 100%;
-    margin: 0.8em 0 0.12em 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
+  color: var(--accent-color);
+  font-size: 95%;
+  font-weight: 600;
+  margin: 0.8em 0 0.12em 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 p {
-    margin: 0 0 0 0;
-    padding: 0;
-    }
+  margin: 0 0 0 0;
+  padding: 0;
+}
 ul {
-    padding: 2px;
-    margin: 0 1.5em;
-    }
-    li {
-        padding-top: 3.5px;
-    }
+  padding: 2px;
+  margin: 0 1.5em;
+}
+li {
+  padding-top: 3.5px;
+}
 /* ul immediately after h1 = contact list */
 h1 + ul {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    }
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 h1 + ul > li {
-    display: inline;
-    white-space: pre;
-    list-style-type: none;
+  display: inline;
+  white-space: pre;
 }
 h1 + ul > li:after {
-    content: "  \2022  ";
+  content: "  \2022  ";
 }
 h1 + ul > li:last-child:after {
-    content: "";
+  content: "";
 }
 /* p immediately after contact list = summary */
 h1 + ul + p {
-    margin: 1.5em 0;
+  margin: 1.5em 0;
 }
 
-a, a:link, a:visited  {
-    color: var(--accent-color-dark);
-    text-decoration: none;
+ol {
+  margin: 0;
+  padding-left: 25px;
+  padding-top: 5px;
+}
+ol > li {
+  padding-top: 5px;
 }
 
-a:hover{
-
-    color: var(--accent-color)
-    text-decoration: underline;
+a,
+a:link,
+a:visited {
+  color: var(--accent-color-dark);
+  text-decoration: none;
 }
 
-.link{
-    display: inline;
-    padding-left: 5px;
-    padding-bottom: 5px;
-    font-size: 12px;
-    font-weight: 400;
+a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.link {
+  display: inline;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  font-weight: 400;
 }
 .technologies {
-    font-weight: 600;
-    color: var(--accent-color);
-    font-size: 13px;
+  font-weight: 600;
+  color: var(--accent-color);
+  font-size: 13px;
 }
 .marks {
-    font-weight: 300;
-    display: inline;
+  font-weight: 300;
+  display: inline;
 }
-.project-heading{
-    font-size: 15px;
+.project-heading {
+  font-size: 15px;
 }
-.ed-heading{
-    margin: 0;
-    padding: 0;
+.ed-heading {
+  margin: 0;
+  padding: 0;
 }
 
 @media print {
-    body {
-        font-size: 11pt;
-        margin: 0;
-        padding: 0;
-        background: none;
-    }
-    #resume {
-        margin: 15px 7.5px 15px 7.5px;
-        padding: 0;
-        border: 0px;
-        background: none;
-        box-shadow: none;
-        -webkit-box-shadow: none;
-    }
-    /* Make links black in PDF */
-    /* Move this outside the print block to apply this in HTML too */
-    a, a:link, a:visited, a:hover {
-        color: var(--accent-color-dark);
-        text-decoration: underline;
-        text-decoration-style: dashed;
-    }
+  body {
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+    background: none;
+  }
+  #resume {
+    margin: 15px 7.5px 15px 7.5px;
+    padding: 0;
+    border: 0px;
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  /* Make links black in PDF */
+  /* Move this outside the print block to apply this in HTML too */
+  a,
+  a:link,
+  a:visited,
+  a:hover {
+    color: var(--accent-color-dark);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+  }
 }
 @page {
-    /* Change margins and paper size of PDF */
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
-    size: A4;
-    margin: 0.3in 0.3in;
+  /* Change margins and paper size of PDF */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
+  size: A4;
+  margin: 0.3in 0.3in;
 }
 @media screen and (max-width: 800px) {
-    body {
-        font-size: 16pt;
-        margin: 0;
-        padding: 0;
-        background: #FFFFFF !important;
-    }
-    #resume {
-        margin: 0;
-        padding: 1em;
-        border: 0px;
-        background: none;
-        box-shadow: none;
-        -webkit-box-shadow: none;
-    }
-    .project-heading{
-        font-size: 15px;
-    }
+  body {
+    font-size: 16pt;
+    margin: 0;
+    padding: 0;
+    background: #ffffff !important;
+  }
+  #resume {
+    margin: 0;
+    padding: 1em;
+    border: 0px;
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  .project-heading {
+    font-size: 15px;
+  }
 }
 
 </style>
@@ -186,31 +202,31 @@ a:hover{
 <h3><span class="ed-heading">Basubaral Saraswati Vihar (CBSE) - 12th <!-- <div class="marks"> Percentage: 84.6</div>--> </span > <span class="technologies">2020</span></h3>
 <p>Percentage: 84.6/100</p>
 <h2>Experience</h2>
-<h3><span>MLH Fellowship (Open Source Developer)</span> <span class="technologies">September 2021 &ndash; December 2021</span></h3>
-<p>The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you&rsquo;ll contribute to the type of Open Source projects that every company depends on.</p>
+<h3><span>MLH Fellowship (Open Source Developer) </span> <span class="technologies">September 2021 &ndash; December 2021</span></h3>
+<p>The MLH Fellowship is a <strong>12-week</strong> internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you&rsquo;ll contribute to the type of Open-Source projects that every company depends on.</p>
 <h3><span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 &ndash; August 2021</span></h3>
-<p>A 4-week Educational program offered by MLH powered by GitHub to level up as a software engineer by contributing on a real-world project by collaborating with people around the world through Standard Industry Practices.</p>
+<p>A <strong>4-week</strong> Educational program offered by MLH powered by GitHub to level up as a software engineer by contributing on a real-world project by collaborating with people around the world through Standard Industry Practices.</p>
 <ul>
 <li>Integrated <strong>AlanAI Voice Assistant</strong> to the <a href="https://github.com/rosekamallove/Portfolio-MLH">Open Sourced Portfolio Template </a> to navigate around the website
   through Voice Commands</li>
 <li>Built the MVP of <strong><a href="https://github.com/rosekamallove/youtemy">YouTemy</a></strong> that <strong>won</strong> the MLH Pre-Fellowship 3 Week Sprint <strong>Hackathon</strong></li>
 </ul>
 <h2>Projects</h2>
-<h3><span class="project-heading">YouTemy <div class="link"><a href="https://github.com/rosekamallove/youtemy">GitHub</a> | <a href="https://youtemy.tech">Deployed</a></div></span> <span class="technologies">React, Firestore, YouTube Data API &amp; Cypress</span></h3>
+<h3><span class="project-heading">YouTemy <div class="link"><a href="https://github.com/rosekamallove/youtemy">GitHub</a> | <a href="https://youtemy.tech">Deployed</a></div></span> <span class="technologies">3 Weeks (120+ hours)</span></h3>
 <p>A platform providing the user the ability to track YouTube course and offer recommended courses.</p>
 <ul>
 <li>Built with <strong>ReactJS</strong> using the <strong>YouTube Data API</strong> and <strong>Firestore</strong> as the Database</li>
 <li><strong>Continious Integration</strong> &amp; <strong>Continous Deployement</strong> with GitHub Actions</li>
 <li>Deployed using <strong>Firebase Hosting</strong> with a <strong>.tech</strong> Domain</li>
 </ul>
-<h3><span class="project-heading">Music Expanse<div class="link"><a href="https://github.com/rosekamallove/music-expanse">GitHub</a> | <a href="https://music-expanse.herokuapp.com">Deployed</a></div></span> <span class="technologies">React, Django, Spotify API, Material UI</span></h3>
+<h3><span class="project-heading">Music Expanse<div class="link"><a href="https://github.com/rosekamallove/music-expanse">GitHub</a> | <a href="https://music-expanse.herokuapp.com">Deployed</a></div></span> <span class="technologies">6 weeks (130+ hours)</span></h3>
 <p>Music Controller to control music on Spotify based on votes of the members in a virtual room.</p>
 <ul>
 <li>Built with <strong>ReactJS</strong> on the frontend using <strong>Material UI</strong></li>
 <li>Backend built with <strong>Django</strong> with <strong>Spotify OAuth</strong> and a <strong>REST API</strong> which uses the <strong>Spotify API</strong></li>
 <li>Deployed on <strong>Heroku</strong></li>
 </ul>
-<h3><span class="project-heading">VS Code Extension Template<div class="link"><a href="https://github.com/rosekamallove/vscode-extension-template">GitHub</a></div></span> <span class="technologies">Svelte &amp; Node + MongoDB/Firestore</span></h3>
+<h3><span class="project-heading">VS Code Extension Template<div class="link"><a href="https://github.com/rosekamallove/vscode-extension-template">GitHub</a></div></span> <span class="technologies">1 week (~30 hours)</span></h3>
 <ul>
 <li><strong>Node/Express</strong> (<em>TypeScript</em>) backend with <strong>CRUD</strong> Functionality using either <strong>MongoDB or Firestore</strong></li>
 <li><strong>Github OAuth</strong> implemented with <strong>Passport.js &amp; JWT</strong></li>
@@ -219,10 +235,9 @@ a:hover{
 <h2>Achievments</h2>
 <ul>
 <li><strong>Won</strong> the MLH Pre-Fellowship 3 Week Sprint <strong>Hackathon</strong> <a href="https://devpost.com/software/youtemy">[Devpost]</a></li>
-<li>Got slected as one of the <strong>150 MLH Fellows out of 20,000+</strong> applicants <strong>worldwide</strong></li>
+<li>Slected as one of the <strong>150 MLH Fellows out of 20,000+</strong> applicants <strong>worldwide</strong></li>
 <li>Global Rank <strong>81 of 21000+</strong> CodeChef October Challenge (Div.3)</li>
 <li>Global Rank <strong>358 of 9500+</strong> CodeChef Lunchtime (Div.3)</li>
-<li><strong>3 &#9734; at CodeChef</strong> (<em>Max Rating: 1681</em>)</li>
 </ul>
 <h2>Skills &amp; Technologies</h2>
 <ul>

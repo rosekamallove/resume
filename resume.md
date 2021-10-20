@@ -19,13 +19,13 @@ Percentage: 84.6/100
 
 ## Experience
 
-### <span>MLH Fellowship (Open Source Developer)</span> <span class="technologies">September 2021 -- December 2021</span>
+### <span>MLH Fellowship (Open Source Developer) </span> <span class="technologies">September 2021 -- December 2021</span>
 
-The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open Source projects that every company depends on.
+The MLH Fellowship is a **12-week** internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open-Source projects that every company depends on.
 
 ### <span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 -- August 2021</span>
 
-A 4-week Educational program offered by MLH powered by GitHub to level up as a software engineer by contributing on a real-world project by collaborating with people around the world through Standard Industry Practices.
+A **4-week** Educational program offered by MLH powered by GitHub to level up as a software engineer by contributing on a real-world project by collaborating with people around the world through Standard Industry Practices.
 
 - Integrated **AlanAI Voice Assistant** to the [Open Sourced Portfolio Template ](https://github.com/rosekamallove/Portfolio-MLH) to navigate around the website
   through Voice Commands
@@ -33,7 +33,7 @@ A 4-week Educational program offered by MLH powered by GitHub to level up as a s
 
 ## Projects
 
-### <span class="project-heading">YouTemy <div class="link">[GitHub](https://github.com/rosekamallove/youtemy) | [Deployed](https://youtemy.tech)</div></span> <span class="technologies">React, Firestore, YouTube Data API & Cypress</span>
+### <span class="project-heading">YouTemy <div class="link">[GitHub](https://github.com/rosekamallove/youtemy) | [Deployed](https://youtemy.tech)</div></span> <span class="technologies">3 Weeks (120+ hours)</span>
 
 A platform providing the user the ability to track YouTube course and offer recommended courses.
 
@@ -41,7 +41,7 @@ A platform providing the user the ability to track YouTube course and offer reco
 - **Continious Integration** & **Continous Deployement** with GitHub Actions
 - Deployed using **Firebase Hosting** with a **.tech** Domain
 
-### <span class="project-heading">Music Expanse<div class="link">[GitHub](https://github.com/rosekamallove/music-expanse) | [Deployed](https://music-expanse.herokuapp.com)</div></span> <span class="technologies">React, Django, Spotify API, Material UI</span>
+### <span class="project-heading">Music Expanse<div class="link">[GitHub](https://github.com/rosekamallove/music-expanse) | [Deployed](https://music-expanse.herokuapp.com)</div></span> <span class="technologies">6 weeks (130+ hours)</span>
 
 Music Controller to control music on Spotify based on votes of the members in a virtual room.
 
@@ -49,7 +49,7 @@ Music Controller to control music on Spotify based on votes of the members in a 
 - Backend built with **Django** with **Spotify OAuth** and a **REST API** which uses the **Spotify API**
 - Deployed on **Heroku**
 
-### <span class="project-heading">VS Code Extension Template<div class="link">[GitHub](https://github.com/rosekamallove/vscode-extension-template)</div></span> <span class="technologies">Svelte & Node + MongoDB/Firestore</span>
+### <span class="project-heading">VS Code Extension Template<div class="link">[GitHub](https://github.com/rosekamallove/vscode-extension-template)</div></span> <span class="technologies">1 week (~30 hours)</span>
 
 - **Node/Express** (_TypeScript_) backend with **CRUD** Functionality using either **MongoDB or Firestore**
 - **Github OAuth** implemented with **Passport.js & JWT**
@@ -58,10 +58,9 @@ Music Controller to control music on Spotify based on votes of the members in a 
 ## Achievments
 
 - **Won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon** [[Devpost]](https://devpost.com/software/youtemy)
-- Got slected as one of the **150 MLH Fellows out of 20,000+** applicants **worldwide**
+- Slected as one of the **150 MLH Fellows out of 20,000+** applicants **worldwide**
 - Global Rank **81 of 21000+** CodeChef October Challenge (Div.3)
 - Global Rank **358 of 9500+** CodeChef Lunchtime (Div.3)
-- **3 &#9734 at CodeChef** (_Max Rating: 1681_)
 
 ## Skills & Technologies
 
