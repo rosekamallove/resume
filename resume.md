@@ -21,11 +21,11 @@ Percentage: 84.6/100
 
 ### <span>MLH Fellowship (Open Source Developer) </span> <span class="technologies">September 2021 -- December 2021</span>
 
-The MLH Fellowship is a **12-week** internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you'll contribute to the type of Open-Source projects that every company depends on.
+The MLH Fellowship is a **12-week** internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track, you'll contribute to the type of Open-Source projects that every company depends on.
 
 ### <span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 -- August 2021</span>
 
-A **4-week** Educational program offered by MLH powered by GitHub to level up as a software engineer by contributing on a real-world project by collaborating with people around the world through Standard Industry Practices.
+A **4-week** Educational program offered by MLH powered by GitHub to level up as a software engineer by contributing to a real-world project by collaborating with people around the world through Standard Industry Practices.
 
 - Integrated **AlanAI Voice Assistant** to the [Open Sourced Portfolio Template ](https://github.com/rosekamallove/Portfolio-MLH) to navigate around the website
   through Voice Commands
@@ -35,10 +35,10 @@ A **4-week** Educational program offered by MLH powered by GitHub to level up as
 
 ### <span class="project-heading">YouTemy <div class="link">[GitHub](https://github.com/rosekamallove/youtemy) | [Deployed](https://youtemy.tech)</div></span> <span class="technologies">3 Weeks (120+ hours)</span>
 
-A platform providing the user the ability to track YouTube course and offer recommended courses.
+A platform providing the user the ability to track YouTube courses and offer recommended courses.
 
 - Built with **ReactJS** using the **YouTube Data API** and **Firestore** as the Database
-- **Continious Integration** & **Continous Deployement** with GitHub Actions
+- **Continous Integration** & **Continous Deployment** with GitHub Actions
 - Deployed using **Firebase Hosting** with a **.tech** Domain
 
 ### <span class="project-heading">Music Expanse<div class="link">[GitHub](https://github.com/rosekamallove/music-expanse) | [Deployed](https://music-expanse.herokuapp.com)</div></span> <span class="technologies">6 weeks (130+ hours)</span>
@@ -55,10 +55,10 @@ Music Controller to control music on Spotify based on votes of the members in a 
 - **Github OAuth** implemented with **Passport.js & JWT**
 - **Svelte** (_TypeScript_) frontend, with **VSCode Extension API** and a **Polka** server for callbacks
 
-## Achievments
+## Achievements
 
 - **Won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon** [[Devpost]](https://devpost.com/software/youtemy)
-- Slected as one of the **150 MLH Fellows out of 20,000+** applicants **worldwide**
+- Selected as one of the **150 MLH Fellows out of 20,000+** applicants **worldwide**
 - Global Rank **81 of 21000+** CodeChef October Challenge (Div.3)
 - Global Rank **358 of 9500+** CodeChef Lunchtime (Div.3)
 
