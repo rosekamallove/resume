@@ -59,6 +59,7 @@ Music Controller to control music on Spotify based on votes of the members in a 
 
 - **Won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon** [[Devpost]](https://devpost.com/software/youtemy)
 - Selected as one of the **150 MLH Fellows out of 20,000+** applicants **worldwide**
+- Advanced to the **Pre Elimination Round in CodeChef SnackDown**
 - Global Rank **81 of 21000+** CodeChef October Challenge (Div.3)
 - Global Rank **358 of 9500+** CodeChef Lunchtime (Div.3)
 
