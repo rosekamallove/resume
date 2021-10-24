@@ -47,13 +47,26 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
+h4 {
+  color: var(--text-color);
+  margin: 0;
+  padding: 3px 0px 3px 8px;
+}
+h4 + ul {
+  color: var(--text-color);
+  margin-left: 40px;
+  font-size: 90%;
+}
+
 p {
   margin: 0 0 0 0;
   padding: 0;
+  font-size: 93%;
 }
 ul {
   padding: 2px;
   margin: 0 1.5em;
+  font-size: 90%;
 }
 li {
   padding-top: 3.5px;

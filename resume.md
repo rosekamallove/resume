@@ -21,14 +21,25 @@ Percentage: 84.6/100
 
 ### <span>MLH Fellowship (Open Source Developer) </span> <span class="technologies">September 2021 -- December 2021</span>
 
-The MLH Fellowship is a **12-week** internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track, you'll contribute to the type of Open-Source projects that every company depends on.
+MLH Fellowship is a **12-week** (30-40hrs/week) internship alternative in which I contributed to Open-Sourced Projects
+
+#### EnzymeJS <div class="link">[GitHub](https://github.com/ljharb/repo-report)</div>
+
+- Fixed Issues
+- Refactored the code which **decreased the hassle** of adding new metrics from 5 files to 1 file **by 25%**
+
+#### repo-report <div class="link">[GitHub](https://github.com/ljharb/repo-report)</div>
+
+- Updated the **GraphQL** queries and validations to add two new metrics from **Github's GraphQL API**
+- Refactored the code which **decreased the hassle** of adding new metrics from 5 files to just 1 file **- by 25%**
+- **Wrote tests** to validate the Metrics and it's permissions using **tape.js**
 
 ### <span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 -- August 2021</span>
 
-A **4-week** Educational program offered by MLH powered by GitHub to level up as a software engineer by contributing to a real-world project by collaborating with people around the world through Standard Industry Practices.
+A **4-week** Educational program offered by MLH powered by GitHub
 
 - Integrated **AlanAI Voice Assistant** to the [Open Sourced Portfolio Template ](https://github.com/rosekamallove/Portfolio-MLH) to navigate around the website
-  through Voice Commands
+  through Voice Commands which improved the interactivity of the portfolio
 - Built the MVP of **[YouTemy](https://github.com/rosekamallove/youtemy)** that **won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon**
 
 ## Projects
@@ -59,7 +70,6 @@ Music Controller to control music on Spotify based on votes of the members in a 
 
 - **Won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon** [[Devpost]](https://devpost.com/software/youtemy)
 - Selected as one of the **150 MLH Fellows out of 20,000+** applicants **worldwide**
-- Advanced to the **Pre Elimination Round in CodeChef SnackDown**
 - Global Rank **81 of 21000+** CodeChef October Challenge (Div.3)
 - Global Rank **358 of 9500+** CodeChef Lunchtime (Div.3)
 
