@@ -5,6 +5,7 @@
 - [LinkedIn](https://www.linkedin.com/in/rose-kamal-love-1146141b0/)
 - [Devpost](https://devpost.com/rosekamallove)
 - [CodeChef](https://codechef.com/users/rosekamallove)
+- [PortFolio](https://rosekamallove.github.io)
 <!--- [CodeForces](https://codeforces.com/profile/rosekamallove)-->
 
 ## Education
@@ -19,14 +20,11 @@ Percentage: 84.6/100
 
 ## Experience
 
-### <span>MLH Fellowship (Open Source Developer) </span> <span class="technologies">September 2021 -- December 2021</span>
+### MLH Fellowship (Open Source Developer) <span class="technologies">September 2021 -- December 2021</span>
 
-MLH Fellowship is a **12-week** (30-40hrs/week) internship alternative in which I contributed to Open-Sourced Projects
+[MLH Fellowship](https://fellowship.mlh.io/programs/open-source) is a **12-week** (30-40hrs/week) Open Source program powered by GitHub, AMEX, FB, etc
 
-#### EnzymeJS <div class="link">[GitHub](https://github.com/ljharb/repo-report)</div>
-
-- Fixed Issues
-- Refactored the code which **decreased the hassle** of adding new metrics from 5 files to 1 file **by 25%**
+<!---#### EnzymeJS <div class="link">[GitHub](https://github.com/ljharb/repo-report)</div>--->
 
 #### repo-report <div class="link">[GitHub](https://github.com/ljharb/repo-report)</div>
 
@@ -70,6 +68,7 @@ Music Controller to control music on Spotify based on votes of the members in a 
 
 - **Won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon** [[Devpost]](https://devpost.com/software/youtemy)
 - Selected as one of the **150 MLH Fellows out of 20,000+** applicants **worldwide**
+- Qualifed for CodeChef **SnackDown Pre-Elimination Round**
 - Global Rank **81 of 21000+** CodeChef October Challenge (Div.3)
 - Global Rank **358 of 9500+** CodeChef Lunchtime (Div.3)
 
