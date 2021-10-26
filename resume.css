@@ -1,9 +1,6 @@
 :root {
-  --accent-color: #03998b;
-  --accent-color-dark: #008276;
-  --accent-color-light: #03998b;
+  --accent-color: #108e80;
   --text-color: #3d3d3d;
-  --backgroung-color: #f0f0f0;
 }
 body {
   color: var(--text-color);
@@ -32,7 +29,7 @@ h1 {
 }
 h2 {
   color: var(--accent-color);
-  border-bottom: 1px dotted var(--accent-color-light);
+  border-bottom: 1px dotted var(--accent-color);
   font-size: 115%;
   font-weight: 800;
   margin: 10px 0 0 0;
@@ -106,7 +103,7 @@ ol > li {
 a,
 a:link,
 a:visited {
-  color: var(--accent-color-dark);
+  color: var(--accent-color);
   text-decoration: none;
 }
 
@@ -160,7 +157,7 @@ a:hover {
   a:link,
   a:visited,
   a:hover {
-    color: var(--accent-color-light);
+    color: var(--accent-color);
     text-decoration: underline;
   }
 }
