@@ -29,8 +29,8 @@ Percentage: 84.6/100
 #### repo-report <div class="link">[GitHub](https://github.com/ljharb/repo-report)</div>
 
 - Updated the **GraphQL** queries and validations to add two new metrics from **Github's GraphQL API**
-- Refactored the code which **decreased the hassle** of adding new metrics from 5 files to just 1 file **- by 25%**
-- **Wrote tests** to validate the Metrics and it's permissions using **tape.js**
+- Refactored the code which **decreased the hassle** of adding new metrics from **5 files to just 1 file - by 25%**
+- **Wrote tests** to validate the Metrics and it's properties using **tape.js**
 
 ### <span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 -- August 2021</span>
 
@@ -68,7 +68,11 @@ Music Controller to control music on Spotify based on votes of the members in a 
 
 - **Won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon** [[Devpost]](https://devpost.com/software/youtemy)
 - Selected as one of the **150 MLH Fellows out of 20,000+** applicants **worldwide**
-- Qualifed for CodeChef **SnackDown Pre-Elimination Round**
+
+---
+
+<!---- Qualifed for CodeChef **SnackDown Pre-Elimination Round**-->
+
 - Global Rank **81 of 21000+** CodeChef October Challenge (Div.3)
 - Global Rank **358 of 9500+** CodeChef Lunchtime (Div.3)
 

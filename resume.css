@@ -2,6 +2,10 @@
   --accent-color: #108e80;
   --text-color: #3d3d3d;
 }
+hr {
+  margin: 2px;
+  border: 1px dotted #fff;
+}
 body {
   color: var(--text-color);
   background: var(--backgound-color);
