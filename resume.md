@@ -18,6 +18,13 @@ Mahatma Jyotiba Phule Rohilkhand University - Bareilly, Uttar Pradesh, India
 
 Percentage: 84.6/100
 
+## Skills & Technologies
+
+- **Languages**: JavaScript (+Typescript), Python, C/C++
+- **Frameworks**: React.js (+Next.js), Svelte, Node & Express (+Deno), MongoDB, Django, Firebase & Firestore
+- **UI Libraries**: Material UI, Ant Design, Chakra UI
+- **Tools**: Git & Github, VSCode, Vim, Linux, Embold
+
 ## Experience
 
 ### MLH Fellowship (Open Source Developer) <span class="technologies">September 2021 -- December 2021</span>
@@ -75,10 +82,3 @@ Music Controller to control music on Spotify based on votes of the members in a 
 
 - Global Rank **81 of 21000+** CodeChef October Challenge (Div.3)
 - Global Rank **358 of 9500+** CodeChef Lunchtime (Div.3)
-
-## Skills & Technologies
-
-- **Languages**: JavaScript/Typescript, Python, C/C++
-- **Frameworks**: ReactJS, Svelte, Node & Express, MongoDB, Django, Firebase & Firestore
-- **UI Libraries**: Bootstrap, Material UI, Ant Design
-- **Tools**: Git & Github, VSCode, Vim, Linux, Embold
