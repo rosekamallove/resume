@@ -142,7 +142,7 @@ a:hover {
 
 @media print {
   body {
-    font-size: 13.3pt;
+    font-size: 13pt;
     margin: 0;
     padding: 0;
     background: none;

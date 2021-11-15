@@ -21,8 +21,9 @@ Percentage: 84.6/100
 ## Skills & Technologies
 
 - **Languages**: JavaScript (+Typescript), Python, C/C++
-- **Frameworks**: React.js (+Next.js), Svelte, Node & Express (+Deno), MongoDB, Django, Firebase & Firestore
-- **UI Libraries**: Material UI, Ant Design, Chakra UI
+- **Backend**: Node & Express (+Deno), Django
+- **Frontend**: React.js (+Next.js), Svelte,Material UI, Ant Design, Chakra UI
+- **Databases**: MongoDB, Firebase & Firestore
 - **Tools**: Git & Github, VSCode, Vim, Linux, Embold
 
 ## Experience
@@ -36,7 +37,7 @@ Percentage: 84.6/100
 #### repo-report <div class="link">[GitHub](https://github.com/ljharb/repo-report)</div>
 
 - Updated the **GraphQL** queries and validations to add two new metrics from **Github's GraphQL API**
-- Refactored the code which **decreased the hassle** of adding new metrics from **5 files to just 1 file - by 25%**
+- Refactored the code which **decreased the hassle** of adding new metrics from **5 files to 1 file - by 25%**
 - **Wrote tests** to validate the Metrics and it's properties using **tape.js**
 
 ### <span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 -- August 2021</span>
