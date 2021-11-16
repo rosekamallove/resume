@@ -14,17 +14,14 @@
 
 Mahatma Jyotiba Phule Rohilkhand University - Bareilly, Uttar Pradesh, India
 
-### <span class="ed-heading">Basubaral Saraswati Vihar (CBSE) - 12th <!-- <div class="marks"> Percentage: 84.6</div>--> </span > <span class="technologies">2020</span>
-
-Percentage: 84.6/100
+<!--### <span class="ed-heading">Basubaral Saraswati Vihar (CBSE) - 12th </span > <span class="technologies">2020</span> -->
 
 ## Skills & Technologies
 
 - **Languages**: JavaScript (+Typescript), Python, C/C++
 - **Backend**: Node & Express (+Deno), Django
-- **Frontend**: React.js (+Next.js), Svelte,Material UI, Ant Design, Chakra UI
+- **Frontend**: React.js (+Next.js), Svelte | Material UI, Ant Design, Chakra UI
 - **Databases**: MongoDB, Firebase & Firestore
-- **Tools**: Git & Github, VSCode, Vim, Linux, Embold
 
 ## Experience
 
