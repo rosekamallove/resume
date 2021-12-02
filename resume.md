@@ -35,7 +35,8 @@ Mahatma Jyotiba Phule Rohilkhand University - Bareilly, Uttar Pradesh, India
 
 - Updated the **GraphQL** queries and validations to add two new metrics from **Github's GraphQL API**
 - Refactored the code which **decreased the hassle** of adding new metrics from **5 files to 1 file - by 25%**
-- **Wrote tests** to validate the Metrics and it's properties using **tape.js**
+- **Wrote tests** to typecheck the Metrics and it's properties using **tape.js**
+- Added a validator to validate variables using **jsonschema**
 
 ### <span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 -- August 2021</span>
 
