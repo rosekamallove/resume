@@ -32,12 +32,16 @@ h1 {
   font-size: 200%;
   margin: 10px;
   padding-bottom: 0px;
+  font-weight: normal;
+}
+strong {
+  font-weight: bold;
 }
 h2 {
   color: var(--accent-color);
   border-bottom: 1px solid #e6e6e6;
   font-size: 115%;
-  font-weight: 800;
+  font-weight: 500;
   margin: 10px 0 0 0;
   padding: 0;
 }

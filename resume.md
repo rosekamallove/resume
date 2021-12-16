@@ -21,7 +21,7 @@ Mahatma Jyotiba Phule Rohilkhand University - Bareilly, Uttar Pradesh, India
 - **Languages**: JavaScript (+Typescript), Python, C/C++
 - **Backend**: Node & Express (+Deno), Django
 - **Frontend**: React.js (+Next.js), Svelte | Material UI, Ant Design, Chakra UI
-- **Databases**: MongoDB, Firebase & Firestore
+- **Databases**: MongoDB, Firestore
 
 ## Experience
 
