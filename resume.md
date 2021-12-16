@@ -5,7 +5,7 @@
 - [LinkedIn](https://www.linkedin.com/in/rose-kamal-love-1146141b0/)
 - [Devpost](https://devpost.com/rosekamallove)
 - [CodeChef](https://codechef.com/users/rosekamallove)
-- [PortFolio](https://rosekamallove.github.io)
+- [PortFolio](https://rosekamallove.vercel.app)
 <!--- [CodeForces](https://codeforces.com/profile/rosekamallove)-->
 
 ## Education
@@ -42,13 +42,13 @@ Mahatma Jyotiba Phule Rohilkhand University - Bareilly, Uttar Pradesh, India
 
 A **4-week** Educational program offered by MLH powered by GitHub
 
-- Integrated **AlanAI Voice Assistant** to the [Open Sourced Portfolio Template ](https://github.com/rosekamallove/Portfolio-MLH) to navigate around the website
+- Integrated **AlanAI Voice Assistant** to the [Open Sourced Portfolio Template](https://github.com/rosekamallove/Portfolio-MLH) to navigate around the website
   through Voice Commands which improved the interactivity of the portfolio
 - Built the MVP of **[YouTemy](https://github.com/rosekamallove/youtemy)** that **won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon**
 
 ## Projects
 
-### <span class="project-heading">YouTemy <div class="link">[GitHub](https://github.com/rosekamallove/youtemy) | [Deployed](https://youtemy.tech)</div></span> <span class="technologies">3 Weeks (120+ hours)</span>
+### <span class="project-heading">YouTemy <div class="link">[GitHub](https://github.com/rosekamallove/youtemy) [Deployed](https://youtemy.tech)</div></span> <span class="technologies">3 Weeks (120+ hours)</span>
 
 A platform providing the user the ability to track YouTube courses and offer recommended courses.
 
@@ -56,7 +56,7 @@ A platform providing the user the ability to track YouTube courses and offer rec
 - **Continous Integration** & **Continous Deployment** with GitHub Actions
 - Deployed using **Firebase Hosting** with a **.tech** Domain
 
-### <span class="project-heading">Music Expanse<div class="link">[GitHub](https://github.com/rosekamallove/music-expanse) | [Deployed](https://music-expanse.herokuapp.com)</div></span> <span class="technologies">6 weeks (130+ hours)</span>
+### <span class="project-heading">Music Expanse<div class="link">[GitHub](https://github.com/rosekamallove/music-expanse) [Deployed](https://music-expanse.herokuapp.com)</div></span> <span class="technologies">6 weeks (130+ hours)</span>
 
 Music Controller to control music on Spotify based on votes of the members in a virtual room.
 
@@ -72,7 +72,7 @@ Music Controller to control music on Spotify based on votes of the members in a 
 
 ## Achievements
 
-- **Won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon** [[Devpost]](https://devpost.com/software/youtemy)
+- **Won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon** [Devpost](https://devpost.com/software/youtemy)
 - Selected as one of the **150 MLH Fellows out of 20,000+** applicants **worldwide**
 
 ---

@@ -1,8 +1,9 @@
 :root {
-  --accent-color: #108e80;
+  --accent-color: #0e8173;
   --bg-accent: #2f343d;
-  --text-color: #3d3d3d;
+  --text-color: #1a1a1a;
 }
+
 hr {
   margin: 2px;
   border: 1px dotted #fff;
@@ -34,7 +35,7 @@ h1 {
 }
 h2 {
   color: var(--accent-color);
-  border-bottom: 1px dotted var(--accent-color);
+  border-bottom: 1px solid #e6e6e6;
   font-size: 115%;
   font-weight: 800;
   margin: 10px 0 0 0;
@@ -67,6 +68,7 @@ p {
   font-size: 93%;
 }
 ul {
+  list-style-type: circle;
   padding: 2px;
   margin: 0 1.25em;
   font-size: 90%;
@@ -75,6 +77,7 @@ li {
   padding-top: 3.5px;
 }
 /* ul immediately after h1 = contact list */
+
 h1 + ul {
   text-align: center;
   margin: 0;
@@ -86,7 +89,7 @@ h1 + ul > li {
   white-space: pre;
 }
 h1 + ul > li:after {
-  content: "  \2022  ";
+  content: "  ";
 }
 h1 + ul > li:last-child:after {
   content: "";
@@ -156,14 +159,17 @@ a:hover {
     box-shadow: none;
     -webkit-box-shadow: none;
   }
-  /* Make links black in PDF */
-  /* Move this outside the print block to apply this in HTML too */
   a,
   a:link,
   a:visited,
   a:hover {
     color: var(--accent-color);
-    text-decoration: underline;
+  }
+  a:before {
+    content: "[";
+  }
+  a:after {
+    content: "]";
   }
 }
 @page {
