@@ -12,7 +12,7 @@
 
 ### <span class="ed-heading">Bachelor of Technology in Computer Science & Information Technology </span > <span class="technologies">2020 -- 2024 </span>
 
-Mahatma Jyotiba Phule Rohilkhand University - Bareilly, Uttar Pradesh, India
+Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India
 
 <!--### <span class="ed-heading">Basubaral Saraswati Vihar (CBSE) - 12th </span > <span class="technologies">2020</span> -->
 
@@ -61,7 +61,8 @@ A platform providing the user the ability to track YouTube courses and offer rec
 Music Controller to control music on Spotify based on votes of the members in a virtual room.
 
 - Built with **ReactJS** on the frontend using **Material UI**
-- Backend built with **Django** with **Spotify OAuth** and a **REST API** which uses the **Spotify API**
+- Used **Django** to buld a **REST API** which uses the **Spotify API**
+- Implemented **Spotify OAuth** to authenticate Spotify API
 - Deployed on **Heroku**
 
 ### <span class="project-heading">VS Code Extension Template<div class="link">[GitHub](https://github.com/rosekamallove/vscode-extension-template)</div></span> <span class="technologies">1 week (~30 hours)</span>

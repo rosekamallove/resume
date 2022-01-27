@@ -1,5 +1,5 @@
 :root {
-  --accent-color: #0e8173;
+  --accent-color: #03998b;
   --bg-accent: #2f343d;
   --text-color: #1a1a1a;
 }
@@ -81,11 +81,10 @@ li {
   padding-top: 3.5px;
 }
 /* ul immediately after h1 = contact list */
-
 h1 + ul {
   text-align: center;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   padding: 0;
 }
 h1 + ul > li {
