@@ -2,17 +2,17 @@
 
 - <rosekamallove@gmail.com>
 - [GitHub](https://github.com/rosekamallove)
-- [LinkedIn](https://www.linkedin.com/in/rose-kamal-love-1146141b0/)
-- [Devpost](https://devpost.com/rosekamallove)
-- [CodeChef](https://codechef.com/users/rosekamallove)
 - [PortFolio](https://rosekamallove.vercel.app)
+- [LinkedIn](https://www.linkedin.com/in/rose-kamal-love-1146141b0/)
+- [CodeChef](https://codechef.com/users/rosekamallove)
+- [LeetCode](https://leetcode.com/rosekamallove/)
 <!--- [CodeForces](https://codeforces.com/profile/rosekamallove)-->
 
 ## Education
 
 ### <span class="ed-heading">Bachelor of Technology in Computer Science & Information Technology </span > <span class="technologies">2020 -- 2024 </span>
 
-Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India
+Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India <!--(CGPA: 6.2 / 10) -->
 
 <!--### <span class="ed-heading">Basubaral Saraswati Vihar (CBSE) - 12th </span > <span class="technologies">2020</span> -->
 
@@ -35,7 +35,7 @@ Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India
 
 - Updated the **GraphQL** queries and validations to add two new metrics from **Github's GraphQL API**
 - Refactored the code which **decreased the hassle** of adding new metrics from **5 files to 1 file - by 25%**
-- **Wrote tests** to typecheck the Metrics and it's properties using **tape.js**
+- **Wrote tests** to type-check the Metrics and it's properties using **tape.js**
 - Added a validator to validate variables using **jsonschema**
 
 ### <span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 -- August 2021</span>
@@ -53,7 +53,7 @@ A **4-week** Educational program offered by MLH powered by GitHub
 A platform providing the user the ability to track YouTube courses and offer recommended courses.
 
 - Built with **ReactJS** using the **YouTube Data API** and **Firestore** as the Database
-- **Continous Integration** & **Continous Deployment** with GitHub Actions
+- **Continuous Integration** & **Continuous Deployment** with GitHub Actions
 - Deployed using **Firebase Hosting** with a **.tech** Domain
 
 ### <span class="project-heading">Music Expanse<div class="link">[GitHub](https://github.com/rosekamallove/music-expanse) [Deployed](https://music-expanse.herokuapp.com)</div></span> <span class="technologies">6 weeks (130+ hours)</span>
@@ -61,9 +61,8 @@ A platform providing the user the ability to track YouTube courses and offer rec
 Music Controller to control music on Spotify based on votes of the members in a virtual room.
 
 - Built with **ReactJS** on the frontend using **Material UI**
-- Used **Django** to buld a **REST API** which uses the **Spotify API**
-- Implemented **Spotify OAuth** to authenticate Spotify API
-- Deployed on **Heroku**
+- Used **Django** to build a **REST API** which uses the **Spotify Web API**
+- Implemented **Spotify OAuth** to authenticate Spotify API and Deployed on **Heroku**
 
 ### <span class="project-heading">VS Code Extension Template<div class="link">[GitHub](https://github.com/rosekamallove/vscode-extension-template)</div></span> <span class="technologies">1 week (~30 hours)</span>
 
@@ -73,8 +72,8 @@ Music Controller to control music on Spotify based on votes of the members in a 
 
 ## Achievements
 
-- **Won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon** [Devpost](https://devpost.com/software/youtemy)
 - Selected as one of the **150 MLH Fellows out of 20,000+** applicants **worldwide**
+- **Won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon** [Devpost](https://devpost.com/software/youtemy)
 
 ---
 
