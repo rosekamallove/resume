@@ -5,7 +5,7 @@
 }
 
 hr {
-  margin: 2px;
+  margin: 1px;
   border: 1px dotted #fff;
 }
 body {
@@ -73,7 +73,7 @@ p {
 }
 ul {
   list-style-type: circle;
-  padding: 2px;
+  padding: 1px;
   margin: 0 1.25em;
   font-size: 90%;
 }
@@ -140,11 +140,22 @@ a:hover {
   display: inline;
 }
 .project-heading {
-  font-size: 15px;
+  font-size: 16px;
 }
 .ed-heading {
   margin: 0;
   padding: 0;
+}
+
+code {
+  font-family: "Calibri", "Times New Roman";
+  font-size: 90%;
+  font-weight: 600;
+  background-color: #ededed;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 7px;
 }
 
 @media print {

@@ -18,10 +18,15 @@ Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India (CGPA: 6.2 / 10)
 
 ## Skills & Technologies
 
-- **Languages**: JavaScript (+Typescript), Python, C/C++
-- **Backend**: Node & Express (+Deno), Django
-- **Frontend**: React.js (+Next.js), Svelte | Material UI, Ant Design, Chakra UI
-- **Databases**: MongoDB, Firestore
+- Languages: `JavaScript (+Typescript)` `C++` `Python`
+
+- Backend: `Node & Express (+Deno)` `Django`
+
+- Frontend: `React.js (+Next.js)` `Svelte` :: `Material UI` `Ant Design` `Tailwind CSS`
+
+- Databases: `MongoDB` `Firestore` `MySQL`
+
+- Coursework: `Data Structures & Algorithms` `Object Oriented Programming` `RDBMS`
 
 ## Experience
 
@@ -35,15 +40,15 @@ Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India (CGPA: 6.2 / 10)
 
 - Updated the **GraphQL** queries and validations to add two new metrics from **Github's GraphQL API**
 - Refactored the code which **decreased the hassle** of adding new metrics from **5 files to 1 file - by 25%**
-- **Wrote tests** to type-check the Metrics and their properties using **tape.js**
-- Added a validator to validate variables using **jsonschema**
+- **Wrote tests** to type-check the Metrics and their properties using **tape.js** and a **jsonschema** validator to validate the
+  variables
 
 ### <span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 -- August 2021</span>
 
 A **4-week** Educational program offered by MLH powered by GitHub
 
 - Integrated **AlanAI Voice Assistant** to the [Open Sourced Portfolio Template](https://github.com/rosekamallove/Portfolio-MLH) to navigate around the website
-  through Voice Commands which improved the interactivity of the portfolio
+  through Voice Commands, making the portfolio more interactive
 - Built the MVP of **[YouTemy](https://github.com/rosekamallove/youtemy)** that **won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon**
 
 ## Projects
@@ -67,7 +72,7 @@ Music Controller to control music on Spotify based on votes of the members in a 
 ### <span class="project-heading">VS Code Extension Template<div class="link">[GitHub](https://github.com/rosekamallove/vscode-extension-template)</div></span> <span class="technologies">1 week (~30 hours)</span>
 
 - **Node/Express** (_TypeScript_) backend with **CRUD** Functionality using either **MongoDB or Firestore**
-- **Github OAuth** implemented with **Passport.js & JWT**
+- **Github OAuth** implemented using **Passport.js & JWT**
 - **Svelte** (_TypeScript_) frontend, with **VSCode Extension API** and a **Polka** server for callbacks
 
 ## Achievements
