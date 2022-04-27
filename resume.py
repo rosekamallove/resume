@@ -115,7 +115,7 @@ def make_html(md: str, prefix: str = "resume") -> str:
     )
 
 
-def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
+def write_pdf(html: str, prefix: str = "rose_kamal_love_resume", chrome: str = "") -> None:
     """
     Write html to prefix.pdf
     """

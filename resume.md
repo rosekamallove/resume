@@ -12,7 +12,7 @@
 
 ### <span class="ed-heading">Bachelor of Technology in Computer Science & Information Technology </span > <span class="technologies">2020 -- 2024 </span>
 
-Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India <!--(CGPA: 6.2 / 10) -->
+Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India (CGPA: 6.2 / 10)
 
 <!--### <span class="ed-heading">Basubaral Saraswati Vihar (CBSE) - 12th </span > <span class="technologies">2020</span> -->
 
@@ -35,7 +35,7 @@ Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India <!--(CGPA: 6.2 / 1
 
 - Updated the **GraphQL** queries and validations to add two new metrics from **Github's GraphQL API**
 - Refactored the code which **decreased the hassle** of adding new metrics from **5 files to 1 file - by 25%**
-- **Wrote tests** to type-check the Metrics and it's properties using **tape.js**
+- **Wrote tests** to type-check the Metrics and their properties using **tape.js**
 - Added a validator to validate variables using **jsonschema**
 
 ### <span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 -- August 2021</span>
@@ -72,12 +72,13 @@ Music Controller to control music on Spotify based on votes of the members in a 
 
 ## Achievements
 
-- Selected as one of the **150 MLH Fellows out of 20,000+** applicants **worldwide**
+- Selected as one of the **150 MLH Fellows out of 25,000+** applicants **worldwide**
 - **Won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon** [Devpost](https://devpost.com/software/youtemy)
 
 ---
 
 <!---- Qualifed for CodeChef **SnackDown Pre-Elimination Round**-->
 
+- Solved 200+ Problems on platforms like LeetCode, CodeChef and GFG
 - Global Rank **81 of 21000+** CodeChef October Challenge (Div.3)
 - Global Rank **358 of 9500+** CodeChef Lunchtime (Div.3)
