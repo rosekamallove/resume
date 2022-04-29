@@ -26,7 +26,7 @@ Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India (CGPA: 6.2 / 10)
 
 - Databases: `MongoDB` `Firestore` `MySQL`
 
-- Coursework: `Data Structures & Algorithms` `Object Oriented Programming` `RDBMS`
+- Coursework: `Data Structures & Algorithms` `Object Oriented Programming` `DBMS`
 
 ## Experience
 
