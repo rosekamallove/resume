@@ -49,7 +49,7 @@ A **4-week** Educational program offered by MLH powered by GitHub
 
 - Integrated **AlanAI Voice Assistant** to the [Open Sourced Portfolio Template](https://github.com/rosekamallove/Portfolio-MLH) to navigate around the website
   through Voice Commands, making the portfolio more interactive
-- Built the MVP of **[YouTemy](https://github.com/rosekamallove/youtemy)** that **won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon**
+- Modeled the MVP of **[YouTemy](https://github.com/rosekamallove/youtemy)** that **won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon**
 
 ## Projects
 
@@ -57,7 +57,7 @@ A **4-week** Educational program offered by MLH powered by GitHub
 
 A platform providing the user the ability to track YouTube courses and offer recommended courses.
 
-- Built with **ReactJS** using the **YouTube Data API** and **Firestore** as the Database
+- Created with **ReactJS** using the **YouTube Data API** and **Firestore** as the Database
 - **Continuous Integration** & **Continuous Deployment** with GitHub Actions
 - Deployed using **Firebase Hosting** with a **.tech** Domain
 
