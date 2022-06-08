@@ -14,7 +14,7 @@ body {
   line-height: 1;
   margin: 20px 0;
   font-size: 1.2em;
-  font-family: "Calibri", "Times New Roman";
+  font-family: "Trebuchet MS", "Calibri", "Times New Roman";
 }
 #resume {
   margin: 0 auto;
@@ -57,25 +57,30 @@ h3 {
 h4 {
   color: var(--text-color);
   margin: 0;
-  padding: 5px 0px 0px 6px;
+  padding: 0;
   font-size: 90%;
 }
 h4 + ul {
   color: var(--text-color);
-  margin-left: 27px;
+  margin-left: 20px;
   font-size: 90%;
 }
 
 p {
-  margin: 0 0 0 0;
+  margin: 3px 0 3px 0;
   padding: 0;
   font-size: 93%;
 }
+
 ul {
-  list-style-type: circle;
+  list-style-type: none;
   padding: 1px;
   margin: 0 1.25em;
   font-size: 90%;
+}
+li:before {
+  content: "•";
+  margin: 0 5px 0 0;
 }
 li {
   padding-top: 3.5px;
@@ -90,6 +95,9 @@ h1 + ul {
 h1 + ul > li {
   display: inline;
   white-space: pre;
+}
+h1 + ul > li:before {
+  content: "";
 }
 h1 + ul > li:after {
   content: "  ";
@@ -157,14 +165,10 @@ code {
   padding-right: 5px;
   border-radius: 7px;
 }
-p {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
 
 @media print {
   body {
-    font-size: 13.2pt;
+    font-size: 12pt;
     margin: 0;
     padding: 0;
     background: none;
@@ -183,17 +187,11 @@ p {
   a:hover {
     color: var(--accent-color);
   }
-  a:before {
-    content: "[";
-  }
-  a:after {
-    content: "]";
-  }
 }
 @page {
   /* Change margins and paper size of PDF */
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
-  size: A4;
+  size: letter;
   margin: 0.3in 0.3in;
 }
 @media screen and (max-width: 800px) {

@@ -30,11 +30,11 @@ Coursework&ensp; `Data Structures & Algorithms` `Object Oriented Programming` `D
 
 ### MLH Fellowship (Open Source Developer) <span class="technologies">September 2021 -- December 2021</span>
 
-[MLH Fellowship](https://fellowship.mlh.io/programs/open-source) is a **12-week** (30-40hrs/week) Open Source program powered by GitHub, AMEX, FB, etc
+A **12-week** (30-40hrs/week) Open Source program powered by GitHub, Meta, AWS, Solana and more
 
 <!---#### EnzymeJS <div class="link">[GitHub](https://github.com/ljharb/repo-report)</div>--->
 
-#### repo-report <div class="link">[GitHub](https://github.com/ljharb/repo-report)</div>
+#### repo-report (OSS) <div class="link">[GitHub](https://github.com/ljharb/repo-report)</div>
 
 - Updated the **GraphQL** queries and validations to add two new metrics from **Github's GraphQL API**
 - Refactored the code which **decreased the hassle** of adding new metrics from **5 files to 1 file - by 25%**
