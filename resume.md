@@ -20,11 +20,9 @@ Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India (CGPA: 6.2 / 10)
 
 - Languages: `JavaScript (+Typescript)` `C++` `Python`
 
-- Backend: `Node & Express (+Deno)` `Django`
+- Backend: `Node & Express (+Deno)` `Django` :: `MongoDB` `Firestore` `MySQL`
 
 - Frontend: `React.js (+Next.js)` `Svelte` :: `Material UI` `Ant Design` `Tailwind CSS`
-
-- Databases: `MongoDB` `Firestore` `MySQL`
 
 - Coursework: `Data Structures & Algorithms` `Object Oriented Programming` `DBMS`
 
