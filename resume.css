@@ -14,7 +14,8 @@ body {
   line-height: 1;
   margin: 20px 0;
   font-size: 1.2em;
-  font-family: "Trebuchet MS", "Calibri", "Times New Roman";
+  font-family: "IBM Plex Sans", "Calibri", "Trebuchet MS", "Times New Roman";
+  font-weight: 400;
 }
 #resume {
   margin: 0 auto;
@@ -35,52 +36,49 @@ h1 {
   font-weight: bold;
 }
 strong {
-  font-weight: bold;
+  font-weight: 500;
 }
 h2 {
   color: var(--accent-color);
   border-bottom: 1px solid #e6e6e6;
-  font-size: 115%;
+  font-size: 120%;
   font-weight: 500;
   margin: 10px 0 0 0;
   padding: 0;
 }
 h3 {
   color: var(--text-color);
-  font-size: 95%;
+  font-size: 100%;
   font-weight: 600;
-  margin: 0.8em 0 0.12em 0;
+  margin: 5px 0 0 0;
   padding: 0;
   display: flex;
   justify-content: space-between;
 }
 h4 {
   color: var(--text-color);
-  margin: 0;
+  font-weight: 500;
+  margin: 5px 5px 3px 5px;
   padding: 0;
   font-size: 90%;
 }
 h4 + ul {
   color: var(--text-color);
   margin-left: 20px;
-  font-size: 90%;
+  font-size: 95%;
 }
 
 p {
   margin: 3px 0 3px 0;
   padding: 0;
-  font-size: 93%;
+  font-size: 95%;
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: circle;
   padding: 1px;
   margin: 0 1.25em;
-  font-size: 90%;
-}
-li:before {
-  content: "•";
-  margin: 0 5px 0 0;
+  font-size: 95%;
 }
 li {
   padding-top: 3.5px;
@@ -147,18 +145,15 @@ a:hover {
   font-weight: 600;
   display: inline;
 }
-.project-heading {
-  font-size: 16px;
-}
 .ed-heading {
   margin: 0;
   padding: 0;
 }
 
 code {
-  font-family: "Calibri", "Times New Roman";
-  font-size: 90%;
-  font-weight: 500;
+  font-family: "IBM Plex Sans";
+  font-size: 80%;
+  font-weight: 400;
   background-color: rgba(3, 153, 139, 15%);
   padding: 1px;
   padding-left: 5px;
@@ -168,7 +163,8 @@ code {
 
 @media print {
   body {
-    font-size: 12pt;
+    font-size: 11pt;
+    line-height: 1.11;
     margin: 0;
     padding: 0;
     background: none;
@@ -192,7 +188,7 @@ code {
   /* Change margins and paper size of PDF */
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
   size: letter;
-  margin: 0.3in 0.3in;
+  margin: 0.2in 0.2in 0.1in 0.2in;
 }
 @media screen and (max-width: 800px) {
   body {

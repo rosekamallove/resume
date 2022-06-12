@@ -16,17 +16,15 @@ Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India (CGPA: 6.2 / 10)
 
 <!--### <span class="ed-heading">Basubaral Saraswati Vihar (CBSE) - 12th </span > <span class="technologies">2020</span> -->
 
-## Skills & Technologies
-
-Languages &ensp;&ensp; `JavaScript (+Typescript)` `C++` `Python`
-
-Backend &ensp;&ensp;&ensp;&ensp;`Node & Express (+Deno)` `Django` :: `MongoDB` `Firestore` `MySQL`
-
-Frontend &ensp;&ensp; &ensp;`React.js (+Next.js)` `Svelte` :: `Material UI` `Ant Design` `Tailwind CSS`
-
-Coursework&ensp; `Data Structures & Algorithms` `Object Oriented Programming` `DBMS`
-
 ## Experience
+
+### BlendED (Fronted Developer Intern) <span class="technologies">June 2022 -- August 2022</span>
+
+I worked on **Next.js** (TypeScript) & **TailwindCSS** [fronted](https://test.blended.app) to fix numerous bugs, add multiple features, and learn a
+lot
+
+- Implemented a **highly scalable** video tooltip modal component which invokes on first user visit using **cookies**
+- Integrated **Mix Panel** Analytics tool for login/logout, page-viewed, worksheets (shared, dowloaded, submitted), and more, which **highly impacted** the product launch analysis
 
 ### MLH Fellowship (Open Source Developer) <span class="technologies">September 2021 -- December 2021</span>
 
@@ -38,20 +36,26 @@ A **12-week** (30-40hrs/week) Open Source program powered by GitHub, Meta, AWS, 
 
 - Updated the **GraphQL** queries and validations to add two new metrics from **Github's GraphQL API**
 - Refactored the code which **decreased the hassle** of adding new metrics from **5 files to 1 file - by 25%**
-- **Wrote tests** to type-check the Metrics and their properties using **tape.js** and a **jsonschema** validator to validate the
-  variables
+- **Wrote tests** to type-check the Metrics and their properties using **tape.js** with **jsonschema** for variables
 
 ### <span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 -- August 2021</span>
 
-A **4-week** Educational program offered by MLH powered by GitHub
-
-- Integrated **AlanAI Voice Assistant** to the [Open Sourced Portfolio Template](https://github.com/rosekamallove/Portfolio-MLH) to navigate around the website
-  through Voice Commands, making the portfolio more interactive
+- Added **AlanAI Voice Assistant** to the [Open Sourced Portfolio Template](https://github.com/rosekamallove/Portfolio-MLH) making the portfolio more interactive
 - Modeled the MVP of **[YouTemy](https://github.com/rosekamallove/youtemy)** that **won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon**
+
+## Skills & Technologies
+
+Languages &ensp;&ensp; `JavaScript (+Typescript)` `C++` `Python`
+
+Backend &ensp;&ensp;&ensp;&ensp;`Node & Express (+Deno)` `Django` :: `MongoDB` `Firestore` `MySQL`
+
+Frontend &ensp;&ensp; &ensp;`React.js (+Next.js)` `Svelte` :: `Material UI` `Ant Design` `Tailwind CSS`
+
+Coursework&ensp; `Data Structures & Algorithms` `Object Oriented Programming` `DBMS`
 
 ## Projects
 
-### <span class="project-heading">YouTemy <div class="link">[GitHub](https://github.com/rosekamallove/youtemy) [Deployed](https://youtemy.tech)</div></span> <span class="technologies">3 Weeks (120+ hours)</span>
+### <span class="project-heading">YouTemy <div class="link">[GitHub](https://github.com/rosekamallove/youtemy) [Deployed](https://youtemy.tech)</div></span> <span class="technologies">6 Weeks (160+ hours)</span>
 
 A platform providing the user the ability to track YouTube courses and offer recommended courses.
 
@@ -77,8 +81,6 @@ Music Controller to control music on Spotify based on votes of the members in a 
 
 - Selected as one of the **150 MLH Fellows out of 25,000+** applicants **worldwide**
 - **Won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon** [Devpost](https://devpost.com/software/youtemy)
-
----
 
 <!---- Qualifed for CodeChef **SnackDown Pre-Elimination Round**-->
 
