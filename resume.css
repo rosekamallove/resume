@@ -57,19 +57,19 @@ h3 {
 }
 h4 {
   color: var(--text-color);
-  font-weight: 500;
-  margin: 5px 5px 3px 5px;
+  font-weight: 600;
   padding: 0;
+  margin: 1px 1px;
   font-size: 90%;
 }
 h4 + ul {
   color: var(--text-color);
-  margin-left: 20px;
+  margin-left: 1.25em;
   font-size: 95%;
 }
 
 p {
-  margin: 3px 0 3px 0;
+  margin: 1px 0 1px 0;
   padding: 0;
   font-size: 95%;
 }
@@ -80,6 +80,7 @@ ul {
   margin: 0 1.25em;
   font-size: 95%;
 }
+
 li {
   padding-top: 3.5px;
 }
@@ -148,16 +149,17 @@ a:hover {
   margin: 0;
   padding: 0;
 }
+.skills {
+  margin: 2px;
+}
 
 code {
   font-family: "IBM Plex Sans";
   font-size: 80%;
   font-weight: 400;
   background-color: rgba(3, 153, 139, 15%);
-  padding: 1px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-radius: 7px;
+  padding: 0px 5px 0px 5px;
+  border-radius: 4px;
 }
 
 @media print {

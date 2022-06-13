@@ -20,8 +20,7 @@ Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India (CGPA: 6.2 / 10)
 
 ### BlendED (Fronted Developer Intern) <span class="technologies">June 2022 -- August 2022</span>
 
-I worked on **Next.js** (TypeScript) & **TailwindCSS** [fronted](https://test.blended.app) to fix numerous bugs, add multiple features, and learn a
-lot
+I worked on **Next.js** & **TailwindCSS** codebase to fix bugs, add features, improve UI, and **redesign** the [landing page](https://test.blended.app/teachers)
 
 - Implemented a **highly scalable** video tooltip modal component which invokes on first user visit using **cookies**
 - Integrated **Mix Panel** Analytics tool for various functions, which **highly impacted** the product launch analysis
@@ -29,15 +28,12 @@ lot
 
 ### MLH Fellowship (Open Source Developer) <span class="technologies">September 2021 -- December 2021</span>
 
-A **12-week** (30-40hrs/week) Open Source program powered by GitHub, Meta, AWS, Solana and more
-
-<!---#### EnzymeJS <div class="link">[GitHub](https://github.com/ljharb/repo-report)</div>--->
-
 #### repo-report (OSS) <div class="link">[GitHub](https://github.com/ljharb/repo-report)</div>
 
 - Updated the **GraphQL** queries and validations to add two new metrics from **Github's GraphQL API**
 - Refactored the code which **decreased the hassle** of adding new metrics from **5 files to 1 file - by 25%**
 - **Wrote tests** to type-check the Metrics and their properties using **tape.js** with **jsonschema** for variables
+- Worked on a Web Based client for the CLI using **React.js** and **TailwindCSS** making the app more **accessible**
 
 ### <span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 -- August 2021</span>
 
