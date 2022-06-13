@@ -1,11 +1,11 @@
 # Rose Kamal Love
 
 - <rosekamallove@gmail.com>
-- [GitHub](https://github.com/rosekamallove)
-- [PortFolio](https://rosekamallove.vercel.app)
-- [LinkedIn](https://www.linkedin.com/in/rose-kamal-love-1146141b0/)
-- [CodeChef](https://codechef.com/users/rosekamallove)
-- [LeetCode](https://leetcode.com/rosekamallove/)
+- [Github](https://github.com/rosekamallove)
+- [Blog](https://rosekamallove.vercel.app)
+- [Linkedin](https://www.linkedin.com/in/rose-kamal-love-1146141b0/)
+- [Codechef](https://codechef.com/users/rosekamallove)
+- [Leetcode](https://leetcode.com/rosekamallove/)
 <!--- [CodeForces](https://codeforces.com/profile/rosekamallove)-->
 
 ## Education
@@ -24,7 +24,8 @@ I worked on **Next.js** (TypeScript) & **TailwindCSS** [fronted](https://test.bl
 lot
 
 - Implemented a **highly scalable** video tooltip modal component which invokes on first user visit using **cookies**
-- Integrated **Mix Panel** Analytics tool for login/logout, page-viewed, worksheets (shared, dowloaded, submitted), and more, which **highly impacted** the product launch analysis
+- Integrated **Mix Panel** Analytics tool for various functions, which **highly impacted** the product launch analysis
+- Used **React Query** for creating and updating data fetching **custom hooks**
 
 ### MLH Fellowship (Open Source Developer) <span class="technologies">September 2021 -- December 2021</span>
 
@@ -84,6 +85,6 @@ Music Controller to control music on Spotify based on votes of the members in a 
 
 <!---- Qualifed for CodeChef **SnackDown Pre-Elimination Round**-->
 
-- Solved 200+ Problems on platforms like LeetCode, CodeChef and GFG
+- Solved 200+ Problems on LeetCode and CodeChef
 - Global Rank **81 of 21000+** CodeChef October Challenge (Div.3)
 - Global Rank **358 of 9500+** CodeChef Lunchtime (Div.3)

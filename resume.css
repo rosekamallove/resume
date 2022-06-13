@@ -85,6 +85,7 @@ li {
 }
 /* ul immediately after h1 = contact list */
 h1 + ul {
+  color: var(--accent-color);
   text-align: center;
   margin: 0;
   margin-bottom: 15px;
@@ -94,12 +95,10 @@ h1 + ul > li {
   display: inline;
   white-space: pre;
 }
-h1 + ul > li:before {
-  content: "";
-}
 h1 + ul > li:after {
-  content: "  ";
+  content: "  • ";
 }
+
 h1 + ul > li:last-child:after {
   content: "";
 }
