@@ -20,7 +20,7 @@ Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India (CGPA: 6.2 / 10)
 
 ### BlendED (Fronted Developer Intern) <span class="technologies">June 2022 -- August 2022</span>
 
-I worked on **Next.js** & **TailwindCSS** codebase to fix bugs, add features, improve UI, and **redesign** the [landing page](https://test.blended.app/teachers)
+I worked on **Next.js** & **TailwindCSS** codebase to fix bugs, add features, improve UI, and **redesign** the [landing page](https://test-teachers.blended.app/teachers)
 
 - Implemented a **highly scalable** video tooltip modal component which invokes on first user visit using **cookies**
 - Integrated **Mix Panel** Analytics tool for various functions, which **highly impacted** the product launch analysis
