@@ -21,7 +21,7 @@ Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India (CGPA: 6.2 / 10)
 
 I worked on **Next.js** & **TailwindCSS** codebase to **redesign** the [teacher's](https://test-teachers.blended.app/teachers) and [parent's](https://test.blended.app/) landing pages and,
 
-- Added a _firstLogin_ personalisation [flow](https://youtu.be/-92xkQpM-0o) which persists data with backend using custom **React Query** hooks
+- Added _firstLogin_ personalisation [flow](https://youtu.be/-92xkQpM-0o) and persisted data using **React Query**, improved invoke time **by ~40%**
 - Integrated **Mix Panel** Analytics tool for various functions, which **highly impacted** the product launch analysis
 - Implemented a **highly scalable** video tooltip modal component which invokes on first user visit using **cookies**
 <!-- - Used **React Query** for creating and updating data fetching **custom hooks** -->
