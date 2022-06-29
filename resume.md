@@ -17,13 +17,13 @@ Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India (CGPA: 6.2 / 10)
 
 ## Experience
 
-### BlendED (Fronted Developer Intern) <span class="technologies">June 2022 -- August 2022</span>
+### BlendED (Fronted Developer Intern) <span class="technologies">June 2022 -- July 2022</span>
 
 I worked on **Next.js** & **TailwindCSS** codebase to **redesign** the [teacher's](https://test-teachers.blended.app/teachers) and [parent's](https://test.blended.app/) landing pages and,
 
 - Added _firstLogin_ personalisation [flow](https://youtu.be/-92xkQpM-0o) and persisted data using **React Query**, improved invoke time **by ~40%**
 - Integrated **Mix Panel** Analytics tool for various functions, which **highly impacted** the product launch analysis
-- Implemented a **highly scalable** video tooltip modal component which invokes on first user visit using **cookies**
+- Implemented a **scalable** video tooltip modal component which invokes on first user visit using **cookies**
 <!-- - Used **React Query** for creating and updating data fetching **custom hooks** -->
 
 ### MLH Fellowship (Open Source Developer) <span class="technologies">September 2021 -- December 2021</span>
@@ -78,9 +78,7 @@ Music Controller to control music on Spotify based on votes of the members in a 
 
 - Selected as one of the **150 MLH Fellows out of 25,000+** applicants **worldwide**
 - **Won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon** [Devpost](https://devpost.com/software/youtemy)
-
-<!---- Qualifed for CodeChef **SnackDown Pre-Elimination Round**-->
-
+<!-- - Qualifed for CodeChef **SnackDown Pre-Elimination Round** -->
 - Solved 200+ Problems on LeetCode and CodeChef
 - Global Rank **81 of 21000+** CodeChef October Challenge (Div.3)
 - Global Rank **358 of 9500+** CodeChef Lunchtime (Div.3)
