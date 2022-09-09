@@ -1,6 +1,6 @@
 # Rose Kamal Love
 
-- <rosekamallove@gmail.com>
+- <private.rosekamallove@gmail.com>
 - [Github](https://github.com/rosekamallove)
 - [Blog](https://rosekamallove.vercel.app)
 - [Linkedin](https://www.linkedin.com/in/rose-kamal-love-1146141b0/)
