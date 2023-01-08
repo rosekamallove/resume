@@ -2,7 +2,7 @@
 
 - <private.rosekamallove@gmail.com>
 - [Github](https://github.com/rosekamallove)
-- [Blog](https://rosekamallove.vercel.app)
+- [Blog](https://www.rosekamal.love)
 - [Linkedin](https://www.linkedin.com/in/rose-kamal-love-1146141b0/)
 - [Codechef](https://codechef.com/users/rosekamallove)
 - [Leetcode](https://leetcode.com/rosekamallove/)
@@ -11,22 +11,26 @@
 
 ### <span class="ed-heading">Bachelor of Technology in Computer Science & Information Technology </span > <span class="technologies">2020 -- 2024 </span>
 
-Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India (CGPA: 6.2 / 10)
+Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India
 
 <!--### <span class="ed-heading">Basubaral Saraswati Vihar (CBSE) - 12th </span > <span class="technologies">2020</span> -->
 
 ## Experience
 
+### Material Depot (YC W22) - SWE Intern <span class="technologies">January 2023 -- Current</span>
+
+- Migrated **React.js** frontend to V3 of API and added **E Commerce** functionality
+
 ### Google Summer of Code (LibreHealthIO) <span class="technologies">June 2022 -- September 2022</span>
 
-I will be re-writing the UI of LH Toolkit & Radiology as an Open Web Application following the **FHIR Standard**
+I worked on re-writing the UI of LH Toolkit & Radiology as an Open Web Application following the **FHIR Standard**
 
 - The rewrite is done using **React.js** as the UI Library and **React Query + Axios** for cached data fetching
 - The web components are built using **Polymer.js** and uses Material UI, and follow the **FHIR Spec**
 
-### BlendED (Fronted Developer Intern) <span class="technologies">May 2022 -- June 2022</span>
+### BlendED - Fronted Developer Intern <span class="technologies">May 2022 -- June 2022</span>
 
-I worked on **Next.js** & **TailwindCSS** codebase to **redesign** the [teacher's](https://test-teachers.blended.app/teachers) and [parent's](https://test.blended.app/) landing pages and,
+I worked on **Next.js** & **TailwindCSS** codebase to **redesign** the [teacher's](https://test-teachers.blended.app/) and [parent's](https://test.blended.app/) landing pages and,
 
 - Added _firstLogin_ personalisation [flow](https://youtu.be/-92xkQpM-0o) and persisted data using **React Query**, improved invoke time **by ~40%**
 - Integrated **Mix Panel** Analytics tool for various functions, which **highly impacted** the product launch analysis
@@ -55,7 +59,7 @@ Backend &ensp;&ensp;&ensp;&ensp;`Node & Express (+Deno)` `Django` :: `MongoDB` `
 
 Frontend &ensp;&ensp; &ensp;`React.js (+Next.js)` `Svelte` :: `Material UI` `Ant Design` `Tailwind CSS`
 
-Coursework&ensp; `Data Structures & Algorithms` `Object Oriented Programming` `DBMS`
+Coursework&ensp; `Data Structures & Algorithms` `OOPs` `DBMS` `OS` `Computer Networks`
 
 ## Projects
 
@@ -75,10 +79,10 @@ Music Controller to control music on Spotify based on votes of the members in a 
 - Used **Django** to build a **REST API** which uses the **Spotify Web API**
 - Implemented **Spotify OAuth** to authenticate Spotify API and Deployed on **Heroku**
 
-### <span class="project-heading">VS Code Extension Template<div class="link">[GitHub](https://github.com/rosekamallove/vscode-extension-template)</div></span> <span class="technologies">1 week (~30 hours)</span>
+<!-- ### <span class="project-heading">VS Code Extension Template<div class="link">[GitHub](https://github.com/rosekamallove/vscode-extension-template)</div></span> <span class="technologies">1 week (~30 hours)</span> -->
 
-- **Node/Express** backend with **CRUD** using **Firestore**, with **Github OAuth** implemented using **Passport.js & JWT**
-- **Svelte** frontend, that uses the **VSCode Extension API** and a **Polka.js** server for authentication callbacks
+<!-- - **Node/Express** backend with **CRUD** using **Firestore**, with **Github OAuth** implemented using **Passport.js & JWT** -->
+<!-- - **Svelte** frontend, that uses the **VSCode Extension API** and a **Polka.js** server for authentication callbacks -->
 
 ## Achievements
 

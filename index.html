@@ -1,318 +1,366 @@
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>Rose Kamal Love</title>
-<style>
-:root {
-  --accent-color: #03998b;
-  --bg-accent: #2f343d;
-  --text-color: #1a1a1a;
-}
+  <meta charset="UTF-8">
+  <title>Rose Kamal Love</title>
+  <style>
+    :root {
+      --accent-color: #03998b;
+      --bg-accent: #2f343d;
+      --text-color: #1a1a1a;
+    }
 
-hr {
-  margin: 1px;
-  border: 1px dotted #fff;
-}
+    hr {
+      margin: 1px;
+      border: 1px dotted #fff;
+    }
 
-body {
-  color: var(--text-color);
-  background: var(--backgound-color);
-  line-height: 1;
-  margin: 20px 0;
-  font-size: 1.2em;
-  font-family: "IBM Plex Sans", "Calibri", "Trebuchet MS", "Times New Roman";
-  font-weight: 500;
-}
+    body {
+      color: var(--text-color);
+      background: var(--backgound-color);
+      line-height: 1;
+      margin: 20px 0;
+      font-size: 1.2em;
+      font-family: "IBM Plex Sans", "Calibri", "Trebuchet MS", "Times New Roman";
+      font-weight: 500;
+    }
 
-#resume {
-  margin: 0 auto;
-  max-width: 900px;
-  padding: 20px 30px;
-  background: var(--background-color);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-}
+    #resume {
+      margin: 0 auto;
+      max-width: 900px;
+      padding: 20px 30px;
+      background: var(--background-color);
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+      -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
 
-h1 {
-  color: var(--accent-color);
-  text-align: center;
-  font-size: 200%;
-  margin: 10px;
-  padding-bottom: 0px;
-  font-weight: 400;
-}
+    h1 {
+      color: var(--accent-color);
+      text-align: center;
+      font-size: 200%;
+      margin: 10px;
+      padding-bottom: 0px;
+      font-weight: 400;
+    }
 
-strong {
-  font-weight: 700;
-}
+    strong {
+      font-weight: 700;
+    }
 
-h2 {
-  color: var(--accent-color);
-  border-bottom: 1px solid #e6e6e6;
-  font-size: 120%;
-  font-weight: 500;
-  margin: 10px 0 0 0;
-  padding: 0;
-}
+    h2 {
+      color: var(--accent-color);
+      border-bottom: 1px solid #e6e6e6;
+      font-size: 120%;
+      font-weight: 500;
+      margin: 10px 0 0 0;
+      padding: 0;
+    }
 
-h3 {
-  color: var(--text-color);
-  font-size: 100%;
-  font-weight: 700;
-  margin: 5px 0 0 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-}
+    h3 {
+      color: var(--text-color);
+      font-size: 100%;
+      font-weight: 700;
+      margin: 5px 0 0 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
 
-h4 {
-  color: var(--text-color);
-  font-weight: 700;
-  padding: 0;
-  margin: 1px 1px;
-  font-size: 90%;
-}
+    h4 {
+      color: var(--text-color);
+      font-weight: 700;
+      padding: 0;
+      margin: 1px 1px;
+      font-size: 90%;
+    }
 
-h4 + ul {
-  color: var(--text-color);
-  margin-left: 1.25em;
-  font-size: 95%;
-}
+    h4+ul {
+      color: var(--text-color);
+      margin-left: 1.25em;
+      font-size: 95%;
+    }
 
-p {
-  margin: 1px 0 1px 0;
-  padding: 0;
-  font-size: 95%;
-}
+    p {
+      margin: 1px 0 1px 0;
+      padding: 0;
+      font-size: 95%;
+    }
 
-ul {
-  list-style-type: circle;
-  padding: 1px;
-  margin: 0 1.25em;
-  font-size: 95%;
-}
+    ul {
+      list-style-type: circle;
+      padding: 1px;
+      margin: 0 1.25em;
+      font-size: 95%;
+    }
 
-li {
-  padding-top: 3.5px;
-}
+    li {
+      padding-top: 3.5px;
+    }
 
-/* ul immediately after h1 = contact list */
-h1 + ul {
-  color: var(--accent-color);
-  text-align: center;
-  margin: 0;
-  margin-bottom: 15px;
-  padding: 0;
-}
+    /* ul immediately after h1 = contact list */
+    h1+ul {
+      color: var(--accent-color);
+      text-align: center;
+      margin: 0;
+      margin-bottom: 15px;
+      padding: 0;
+    }
 
-h1 + ul > li {
-  display: inline;
-  white-space: pre;
-}
+    h1+ul>li {
+      display: inline;
+      white-space: pre;
+    }
 
-h1 + ul > li:after {
-  content: "  • ";
-}
+    h1+ul>li:after {
+      content: "  • ";
+    }
 
-h1 + ul > li:last-child:after {
-  content: "";
-}
+    h1+ul>li:last-child:after {
+      content: "";
+    }
 
-/* p immediately after contact list = summary */
-h1 + ul + p {
-  margin: 1.5em 0;
-}
+    /* p immediately after contact list = summary */
+    h1+ul+p {
+      margin: 1.5em 0;
+    }
 
-ol {
-  margin: 0;
-  padding-left: 25px;
-  padding-top: 5px;
-}
-ol > li {
-  padding-top: 5px;
-}
+    ol {
+      margin: 0;
+      padding-left: 25px;
+      padding-top: 5px;
+    }
 
-a,
-a:link,
-a:visited {
-  color: var(--accent-color);
-  font-weight: 700;
-  text-decoration: none;
-}
+    ol>li {
+      padding-top: 5px;
+    }
 
-a:hover {
-  color: var(--accent-color);
-  text-decoration: underline;
-}
+    a,
+    a:link,
+    a:visited {
+      color: var(--accent-color);
+      font-weight: 700;
+      text-decoration: none;
+    }
 
-.link {
-  display: inline;
-  padding-left: 5px;
-  padding-bottom: 5px;
-  font-size: 12px;
-  font-weight: 700;
-}
-.technologies {
-  font-weight: 500;
-  color: var(--accent-color);
-  font-size: 13px;
-}
-.marks {
-  font-weight: 700;
-  display: inline;
-}
-.ed-heading {
-  margin: 0;
-  padding: 0;
-}
-.skills {
-  margin: 2px;
-}
+    a:hover {
+      color: var(--accent-color);
+      text-decoration: underline;
+    }
 
-code {
-  font-family: "IBM Plex Sans";
-  font-size: 80%;
-  font-weight: 500;
-  background-color: rgba(3, 153, 139, 15%);
-  padding: 0px 3px 0px 3px;
-  border-radius: 4px;
-}
+    .link {
+      display: inline;
+      padding-left: 5px;
+      padding-bottom: 5px;
+      font-size: 12px;
+      font-weight: 700;
+    }
 
-@media print {
-  body {
-    font-size: 11.4pt;
-    line-height: 1.11;
-    margin: 0;
-    padding: 0;
-    background: none;
-  }
-  #resume {
-    margin: 15px 7.5px 15px 7.5px;
-    padding: 0;
-    border: 0px;
-    background: none;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-  }
-  a,
-  a:link,
-  a:visited,
-  a:hover {
-    color: var(--accent-color);
-    font-weight: 500;
-  }
-}
-@page {
-  /* Change margins and paper size of PDF */
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
-  size: letter;
-  margin: 0.2in 0.2in 0.1in 0.2in;
-}
-@media screen and (max-width: 800px) {
-  body {
-    font-size: 16pt;
-    margin: 0;
-    padding: 0;
-    background: #ffffff !important;
-  }
-  #resume {
-    margin: 0;
-    padding: 1em;
-    border: 0px;
-    background: none;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-  }
-  .project-heading {
-    font-size: 15px;
-  }
-}
+    .technologies {
+      font-weight: 500;
+      color: var(--accent-color);
+      font-size: 13px;
+    }
 
-</style>
+    .marks {
+      font-weight: 700;
+      display: inline;
+    }
+
+    .ed-heading {
+      margin: 0;
+      padding: 0;
+    }
+
+    .skills {
+      margin: 2px;
+    }
+
+    code {
+      font-family: "IBM Plex Sans";
+      font-size: 80%;
+      font-weight: 500;
+      background-color: rgba(3, 153, 139, 15%);
+      padding: 0px 3px 0px 3px;
+      border-radius: 4px;
+    }
+
+    @media print {
+      body {
+        font-size: 11.4pt;
+        line-height: 1.11;
+        margin: 0;
+        padding: 0;
+        background: none;
+      }
+
+      #resume {
+        margin: 15px 7.5px 15px 7.5px;
+        padding: 0;
+        border: 0px;
+        background: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+      }
+
+      a,
+      a:link,
+      a:visited,
+      a:hover {
+        color: var(--accent-color);
+        font-weight: 500;
+      }
+    }
+
+    @page {
+      /* Change margins and paper size of PDF */
+      /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
+      size: letter;
+      margin: 0.2in 0.2in 0.1in 0.2in;
+    }
+
+    @media screen and (max-width: 800px) {
+      body {
+        font-size: 16pt;
+        margin: 0;
+        padding: 0;
+        background: #ffffff !important;
+      }
+
+      #resume {
+        margin: 0;
+        padding: 1em;
+        border: 0px;
+        background: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+      }
+
+      .project-heading {
+        font-size: 15px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-<div id="resume">
-<h1>Rose Kamal Love</h1>
-<ul>
-<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#111;&#115;&#101;&#107;&#97;&#109;&#97;&#108;&#108;&#111;&#118;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#114;&#111;&#115;&#101;&#107;&#97;&#109;&#97;&#108;&#108;&#111;&#118;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
-<li><a href="https://github.com/rosekamallove">Github</a></li>
-<li><a href="https://rosekamallove.vercel.app">Blog</a></li>
-<li><a href="https://www.linkedin.com/in/rose-kamal-love-1146141b0/">Linkedin</a></li>
-<li><a href="https://codechef.com/users/rosekamallove">Codechef</a></li>
-<li><a href="https://leetcode.com/rosekamallove/">Leetcode</a></li>
-</ul>
-<h2>Education</h2>
-<h3><span class="ed-heading">Bachelor of Technology in Computer Science &amp; Information Technology </span > <span class="technologies">2020 &ndash; 2024 </span></h3>
-<p>Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India (CGPA: 6.2 / 10)</p>
-<!--### <span class="ed-heading">Basubaral Saraswati Vihar (CBSE) - 12th </span > <span class="technologies">2020</span> -->
+  <div id="resume">
+    <h1>Rose Kamal Love</h1>
+    <ul>
+      <li><a
+          href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#114;&#105;&#118;&#97;&#116;&#101;&#46;&#114;&#111;&#115;&#101;&#107;&#97;&#109;&#97;&#108;&#108;&#111;&#118;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#112;&#114;&#105;&#118;&#97;&#116;&#101;&#46;&#114;&#111;&#115;&#101;&#107;&#97;&#109;&#97;&#108;&#108;&#111;&#118;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>
+      </li>
+      <li><a href="https://github.com/rosekamallove">Github</a></li>
+      <li><a href="https://www.rosekamal.love">Blog</a></li>
+      <li><a href="https://www.linkedin.com/in/rose-kamal-love-1146141b0/">Linkedin</a></li>
+      <li><a href="https://codechef.com/users/rosekamallove">Codechef</a></li>
+      <li><a href="https://leetcode.com/rosekamallove/">Leetcode</a></li>
+    </ul>
+    <h2>Education</h2>
+    <h3><span class="ed-heading">Bachelor of Technology in Computer Science &amp; Information Technology </span> <span
+        class="technologies">2020 &ndash; 2024 </span></h3>
+    <p>Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India</p>
+    <!--### <span class="ed-heading">Basubaral Saraswati Vihar (CBSE) - 12th </span > <span class="technologies">2020</span> -->
 
-<h2>Experience</h2>
-<h3>Google Summer of Code (LibreHealthIO) <span class="technologies">June 2022 &ndash; September 2022</span></h3>
-<p>I will be re-writing the UI of LH Toolkit &amp; Radiology as an Open Web Application following the <strong>FHIR Standard</strong></p>
-<ul>
-<li>The rewrite is done using <strong>React.js</strong> as the UI Library and <strong>React Query + Axios</strong> for cached data fetching</li>
-<li>The web components are built using <strong>Polymer.js</strong> and uses Material UI, and follow the <strong>FHIR Spec</strong></li>
-</ul>
-<h3>BlendED (Fronted Developer Intern) <span class="technologies">May 2022 &ndash; June 2022</span></h3>
-<p>I worked on <strong>Next.js</strong> &amp; <strong>TailwindCSS</strong> codebase to <strong>redesign</strong> the <a href="https://test-teachers.blended.app/teachers">teacher&rsquo;s</a> and <a href="https://test.blended.app/">parent&rsquo;s</a> landing pages and,</p>
-<ul>
-<li>Added <em>firstLogin</em> personalisation <a href="https://youtu.be/-92xkQpM-0o">flow</a> and persisted data using <strong>React Query</strong>, improved invoke time <strong>by ~40%</strong></li>
-<li>Integrated <strong>Mix Panel</strong> Analytics tool for various functions, which <strong>highly impacted</strong> the product launch analysis</li>
-<li>Implemented a <strong>scalable</strong> video tooltip modal component that invokes on the first user visit using <strong>cookies</strong></li>
-</ul>
-<!-- - Used **React Query** for creating and updating data fetching **custom hooks** -->
+    <h2>Experience</h2>
+    <h3>Material Depot (YC W22) - SWE Intern <span class="technologies">January 2023 &ndash; Current</span></h3>
+    <ul>
+      <li>Migrated <strong>React.js</strong> frontend to V3 of API and added <strong>E Commerce</strong> functionality
+      </li>
+    </ul>
+    <h3>Google Summer of Code (LibreHealthIO) <span class="technologies">June 2022 &ndash; September 2022</span></h3>
+    <p>I worked on re-writing the UI of LH Toolkit &amp; Radiology as an Open Web Application following the <strong>FHIR
+        Standard</strong></p>
+    <ul>
+      <li>The rewrite is done using <strong>React.js</strong> as the UI Library and <strong>React Query + Axios</strong>
+        for cached data fetching</li>
+      <li>The web components are built using <strong>Polymer.js</strong> and uses Material UI, and follow the
+        <strong>FHIR Spec</strong></li>
+    </ul>
+    <h3>BlendED - Fronted Developer Intern <span class="technologies">May 2022 &ndash; June 2022</span></h3>
+    <p>I worked on <strong>Next.js</strong> &amp; <strong>TailwindCSS</strong> codebase to <strong>redesign</strong> the
+      <a href="https://test-teachers.blended.app/">teacher&rsquo;s</a> and <a
+        href="https://test.blended.app/">parent&rsquo;s</a> landing pages and,</p>
+    <ul>
+      <li>Added <em>firstLogin</em> personalisation <a href="https://youtu.be/-92xkQpM-0o">flow</a> and persisted data
+        using <strong>React Query</strong>, improved invoke time <strong>by ~40%</strong></li>
+      <li>Integrated <strong>Mix Panel</strong> Analytics tool for various functions, which <strong>highly
+          impacted</strong> the product launch analysis</li>
+      <li>Implemented a <strong>scalable</strong> video tooltip modal component that invokes on the first user visit
+        using <strong>cookies</strong></li>
+    </ul>
+    <!-- - Used **React Query** for creating and updating data fetching **custom hooks** -->
 
-<h3>MLH Fellowship (Open Source Developer) <span class="technologies">September 2021 &ndash; December 2021</span></h3>
-<h4>repo-report (OSS) <div class="link"><a href="https://github.com/ljharb/repo-report">GitHub</a></div></h4>
-<ul>
-<li>Updated the <strong>GraphQL</strong> queries and validations to add two new metrics from <strong>Github&rsquo;s GraphQL API</strong></li>
-<li>Refactored the code which <strong>decreased the hassle</strong> of adding new metrics from <strong>5 files to 1 file - by 25%</strong></li>
-<li><strong>Wrote tests</strong> to type-check the Metrics and their properties using <strong>tape.js</strong> with <strong>jsonschema</strong> for variables</li>
-<li>Worked on a Web Based client for the CLI using <strong>React.js</strong> and <strong>TailwindCSS</strong> making the app more <strong>accessible</strong></li>
-</ul>
-<!-- ### <span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 -- August 2021</span> -->
-<!---->
-<!-- - Added **AlanAI Voice Assistant** to the [Open Sourced Portfolio Template](https://github.com/rosekamallove/Portfolio-MLH) making the portfolio more interactive -->
-<!-- - Modeled the MVP of **[YouTemy](https://github.com/rosekamallove/youtemy)** that **won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon** -->
+    <h3>MLH Fellowship (Open Source Developer) <span class="technologies">September 2021 &ndash; December 2021</span>
+    </h3>
+    <h4>repo-report (OSS) <div class="link"><a href="https://github.com/ljharb/repo-report">GitHub</a></div>
+    </h4>
+    <ul>
+      <li>Updated the <strong>GraphQL</strong> queries and validations to add two new metrics from
+        <strong>Github&rsquo;s GraphQL API</strong></li>
+      <li>Refactored the code which <strong>decreased the hassle</strong> of adding new metrics from <strong>5 files to
+          1 file - by 25%</strong></li>
+      <li><strong>Wrote tests</strong> to type-check the Metrics and their properties using <strong>tape.js</strong>
+        with <strong>jsonschema</strong> for variables</li>
+      <li>Worked on a Web Based client for the CLI using <strong>React.js</strong> and <strong>TailwindCSS</strong>
+        making the app more <strong>accessible</strong></li>
+    </ul>
+    <!-- ### <span>MLH Pre-Fellowship</span> <span class="technologies">July 2021 -- August 2021</span> -->
+    <!---->
+    <!-- - Added **AlanAI Voice Assistant** to the [Open Sourced Portfolio Template](https://github.com/rosekamallove/Portfolio-MLH) making the portfolio more interactive -->
+    <!-- - Modeled the MVP of **[YouTemy](https://github.com/rosekamallove/youtemy)** that **won** the MLH Pre-Fellowship 3 Week Sprint **Hackathon** -->
 
-<h2>Skills &amp; Technologies</h2>
-<p>Languages &ensp;&ensp; <code>JavaScript (+Typescript)</code> <code>C++</code> <code>Python</code></p>
-<p>Backend &ensp;&ensp;&ensp;&ensp;<code>Node &amp; Express (+Deno)</code> <code>Django</code> :: <code>MongoDB</code> <code>Firestore</code> <code>MySQL</code></p>
-<p>Frontend &ensp;&ensp; &ensp;<code>React.js (+Next.js)</code> <code>Svelte</code> :: <code>Material UI</code> <code>Ant Design</code> <code>Tailwind CSS</code></p>
-<p>Coursework&ensp; <code>Data Structures &amp; Algorithms</code> <code>Object Oriented Programming</code> <code>DBMS</code></p>
-<h2>Projects</h2>
-<h3><span class="project-heading">YouTemy <div class="link"><a href="https://github.com/rosekamallove/youtemy">GitHub</a> <a href="https://youtemy.tech">Deployed</a></div></span> <span class="technologies">6 Weeks (160+ hours)</span></h3>
-<p>A platform allows the user to track YouTube courses and offer recommended courses.</p>
-<ul>
-<li>Created with <strong>ReactJS</strong> using the <strong>YouTube Data API</strong> and <strong>Firestore</strong> as the Database</li>
-<li><strong>Continuous Integration</strong> &amp; <strong>Continuous Deployment</strong> with GitHub Actions</li>
-<li>Deployed using <strong>Firebase Hosting</strong> with a <strong>.tech</strong> Domain</li>
-</ul>
-<h3><span class="project-heading">Music Expanse<div class="link"><a href="https://github.com/rosekamallove/music-expanse">GitHub</a> <a href="https://music-expanse.herokuapp.com">Deployed</a></div></span> <span class="technologies">6 weeks (130+ hours)</span></h3>
-<p>Music Controller to control music on Spotify based on votes of the members in a virtual room.</p>
-<ul>
-<li>Built with <strong>ReactJS</strong> on the frontend using <strong>Material UI</strong></li>
-<li>Used <strong>Django</strong> to build a <strong>REST API</strong> which uses the <strong>Spotify Web API</strong></li>
-<li>Implemented <strong>Spotify OAuth</strong> to authenticate Spotify API and Deployed on <strong>Heroku</strong></li>
-</ul>
-<h3><span class="project-heading">VS Code Extension Template<div class="link"><a href="https://github.com/rosekamallove/vscode-extension-template">GitHub</a></div></span> <span class="technologies">1 week (~30 hours)</span></h3>
-<ul>
-<li><strong>Node/Express</strong> backend with <strong>CRUD</strong> using <strong>Firestore</strong>, with <strong>Github OAuth</strong> implemented using <strong>Passport.js &amp; JWT</strong></li>
-<li><strong>Svelte</strong> frontend, that uses the <strong>VSCode Extension API</strong> and a <strong>Polka.js</strong> server for authentication callbacks</li>
-</ul>
-<h2>Achievements</h2>
-<ul>
-<li>Selected as one of the <strong>150 MLH Fellows out of 25,000+</strong> applicants <strong>worldwide</strong></li>
-<li><strong>Won</strong> the MLH Pre-Fellowship 3 Week Sprint <strong>Hackathon</strong> <a href="https://devpost.com/software/youtemy">Devpost</a></li>
-</ul>
-<!-- - Qualifed for CodeChef **SnackDown Pre-Elimination Round** -->
-<ul>
-<li>Solved 200+ Problems on LeetCode and CodeChef</li>
-<li>Global Rank <strong>81 of 21000+</strong> CodeChef October Challenge (Div.3)</li>
-<li>Global Rank <strong>358 of 9500+</strong> CodeChef Lunchtime (Div.3)</li>
-</ul></div>
+    <h2>Skills &amp; Technologies</h2>
+    <p>Languages &ensp;&ensp; <code>JavaScript (+Typescript)</code> <code>C++</code> <code>Python</code></p>
+    <p>Backend &ensp;&ensp;&ensp;&ensp;<code>Node &amp; Express (+Deno)</code> <code>Django</code> ::
+      <code>MongoDB</code> <code>Firestore</code> <code>MySQL</code></p>
+    <p>Frontend &ensp;&ensp; &ensp;<code>React.js (+Next.js)</code> <code>Svelte</code> :: <code>Material UI</code>
+      <code>Ant Design</code> <code>Tailwind CSS</code></p>
+    <p>Coursework&ensp; <code>Data Structures &amp; Algorithms</code> <code>OOPs</code> <code>DBMS</code>
+      <code>OS</code> <code>Computer Networks</code></p>
+    <h2>Projects</h2>
+    <h3><span class="project-heading">YouTemy <div class="link"><a
+            href="https://github.com/rosekamallove/youtemy">GitHub</a> <a href="https://youtemy.tech">Deployed</a></div>
+        </span> <span class="technologies">6 Weeks (160+ hours)</span></h3>
+    <p>A platform allows the user to track YouTube courses and offer recommended courses.</p>
+    <ul>
+      <li>Created with <strong>ReactJS</strong> using the <strong>YouTube Data API</strong> and
+        <strong>Firestore</strong> as the Database</li>
+      <li><strong>Continuous Integration</strong> &amp; <strong>Continuous Deployment</strong> with GitHub Actions</li>
+      <li>Deployed using <strong>Firebase Hosting</strong> with a <strong>.tech</strong> Domain</li>
+    </ul>
+    <h3><span class="project-heading">Music Expanse<div class="link"><a
+            href="https://github.com/rosekamallove/music-expanse">GitHub</a> <a
+            href="https://music-expanse.herokuapp.com">Deployed</a></div></span> <span class="technologies">6 weeks
+        (130+ hours)</span></h3>
+    <p>Music Controller to control music on Spotify based on votes of the members in a virtual room.</p>
+    <ul>
+      <li>Built with <strong>ReactJS</strong> on the frontend using <strong>Material UI</strong></li>
+      <li>Used <strong>Django</strong> to build a <strong>REST API</strong> which uses the <strong>Spotify Web
+          API</strong></li>
+      <li>Implemented <strong>Spotify OAuth</strong> to authenticate Spotify API and Deployed on <strong>Heroku</strong>
+      </li>
+    </ul>
+    <!-- ### <span class="project-heading">VS Code Extension Template<div class="link">[GitHub](https://github.com/rosekamallove/vscode-extension-template)</div></span> <span class="technologies">1 week (~30 hours)</span> -->
+
+    <!-- - **Node/Express** backend with **CRUD** using **Firestore**, with **Github OAuth** implemented using **Passport.js & JWT** -->
+    <!-- - **Svelte** frontend, that uses the **VSCode Extension API** and a **Polka.js** server for authentication callbacks -->
+
+    <h2>Achievements</h2>
+    <ul>
+      <li>Selected as one of the <strong>150 MLH Fellows out of 25,000+</strong> applicants <strong>worldwide</strong>
+      </li>
+      <li><strong>Won</strong> the MLH Pre-Fellowship 3 Week Sprint <strong>Hackathon</strong> <a
+          href="https://devpost.com/software/youtemy">Devpost</a></li>
+    </ul>
+    <!-- - Qualifed for CodeChef **SnackDown Pre-Elimination Round** -->
+    <ul>
+      <li>Solved 200+ Problems on LeetCode and CodeChef</li>
+      <li>Global Rank <strong>81 of 21000+</strong> CodeChef October Challenge (Div.3)</li>
+      <li>Global Rank <strong>358 of 9500+</strong> CodeChef Lunchtime (Div.3)</li>
+    </ul>
+  </div>
 </body>
-</html>
 
+</html>
