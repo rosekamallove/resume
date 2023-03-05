@@ -17,9 +17,10 @@ Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India
 
 ## Experience
 
-### Material Depot (YC W22) - SWE Intern <span class="technologies">January 2023 -- Current</span>
+### Material Depot (YC W22) - SWE Intern <span class="technologies">January 2023 -- February 2023</span>
 
 - Migrated **React.js** frontend to V3 of API and added **E Commerce** functionality
+- Built a CRM using React.js and Material UI and worked on Pamphlet generation using Python
 
 ### Google Summer of Code (LibreHealthIO) <span class="technologies">June 2022 -- September 2022</span>
 
@@ -37,9 +38,11 @@ I worked on **Next.js** & **TailwindCSS** codebase to **redesign** the [teacher'
 - Implemented a **scalable** video tooltip modal component that invokes on the first user visit using **cookies**
 <!-- - Used **React Query** for creating and updating data fetching **custom hooks** -->
 
-### MLH Fellowship (Open Source Developer) <span class="technologies">September 2021 -- December 2021</span>
+### MLH Fellowship - Open Source Developer <span class="technologies">September 2021 -- December 2021</span>
 
-#### repo-report (OSS) <div class="link">[GitHub](https://github.com/ljharb/repo-report)</div>
+Worked on a CLI application ([repo-report](https://github.com/ljharb/repo-report)) that shows the maintainer's GitHub info on the terminal
+
+<!-- #### repo-report (OSS) <div class="link">[GitHub](https://github.com/ljharb/repo-report)</div> -->
 
 - Updated the **GraphQL** queries and validations to add two new metrics from **Github's GraphQL API**
 - Refactored the code which **decreased the hassle** of adding new metrics from **5 files to 1 file - by 25%**
@@ -65,7 +68,7 @@ Coursework&ensp; `Data Structures & Algorithms` `OOPs` `DBMS` `OS` `Computer Net
 
 ### <span class="project-heading">YouTemy <div class="link">[GitHub](https://github.com/rosekamallove/youtemy) [Deployed](https://youtemy.tech)</div></span> <span class="technologies">6 Weeks (160+ hours)</span>
 
-A platform allows the user to track YouTube courses and offer recommended courses.
+A platform that allows the user to track YouTube courses and offer recommended courses.
 
 - Created with **ReactJS** using the **YouTube Data API** and **Firestore** as the Database
 - **Continuous Integration** & **Continuous Deployment** with GitHub Actions
